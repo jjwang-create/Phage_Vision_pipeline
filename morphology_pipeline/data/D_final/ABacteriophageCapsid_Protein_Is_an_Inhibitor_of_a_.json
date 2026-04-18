@@ -1,0 +1,19 @@
+{
+  "title": "A Bacteriophage Capsid Protein Is an Inhibitor of a Conserved Transcription Terminator of Various Bacterial Pathogens",
+  "summary": "The paper focuses on bacteriophage P4's capsid protein Psu and its inhibitory function against bacterial Rho proteins. No morphological or structural details (capsid shape, dimensions, tail type, plaque morphology) of bacteriophage P4 are provided in the text.",
+  "phages": {
+    "bacteriophage P4": {
+      "phage_name_or_id": "bacteriophage P4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "Psu (polarity suppression) capsid protein",
+      "extra": {}
+    }
+  }
+}

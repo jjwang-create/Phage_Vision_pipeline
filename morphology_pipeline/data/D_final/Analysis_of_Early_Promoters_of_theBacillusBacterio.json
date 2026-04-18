@@ -1,0 +1,58 @@
+{
+  "title": "Analysis of Early Promoters of theBacillus Bacteriophage GA-1",
+  "summary": "The paper focuses on transcriptional regulation by protein p6 in bacteriophage GA-1 and its evolutionary relationship to phage φ29. No morphological or structural details (capsid dimensions, tail measurements, plaque morphology, etc.) are provided for either phage in the text or figure captions. The discussion is entirely about promoter activity, protein p6 function, and in vitro transcription assays.",
+  "phages": {
+    "Bacteriophage GA-1": {
+      "phage_name_or_id": "Bacteriophage GA-1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Bacillus sp. strain G1R",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "phage GA-1": {
+      "phage_name_or_id": "phage GA-1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Bacillus sp. strain G1R",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "phage φ29": {
+      "phage_name_or_id": "phage φ29",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Bacillus subtilis",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "φ29": {
+      "phage_name_or_id": "φ29",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Bacillus subtilis",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

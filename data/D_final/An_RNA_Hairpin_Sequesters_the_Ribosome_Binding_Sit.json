@@ -1,0 +1,10 @@
+{
+  "title": "An RNA Hairpin Sequesters the Ribosome Binding Site of the Homing Endonuclease mobE Gene",
+  "summary": "The paper discusses bacteriophage Aeh1, focusing on the regulatory role of an RNA hairpin upstream of the mobE gene in its nrd operon, which affects translation.",
+  "phages": {
+    "bacteriophage Aeh1": {
+      "phage_name_or_id": "bacteriophage Aeh1",
+      "extra": {}
+    }
+  }
+}

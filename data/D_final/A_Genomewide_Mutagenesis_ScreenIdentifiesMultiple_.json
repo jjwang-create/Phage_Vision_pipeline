@@ -1,0 +1,30 @@
+{
+  "title": "A Genomewide Mutagenesis Screen Identifies Multiple Genes Contributing to Vi Capsular Expression in Salmonella enterica Serovar Typhi",
+  "summary": "The paper describes ViII bacteriophage, a lytic phage targeting Salmonella enterica serovar Typhi's Vi polysaccharide capsule, along with other Vi-specific phages (ViI, ViII, ViIII-VII) with different morphologies (Myoviridae, Siphoviridae, Podoviridae). These phages were used to identify bacterial genes involved in Vi expression and phage susceptibility.",
+  "phages": {
+    "ViII bacteriophage": {
+      "phage_name_or_id": "ViII bacteriophage",
+      "life_cycle_type": "lytic",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "extra": {}
+    },
+    "ViI (a Myoviridae virus)": {
+      "phage_name_or_id": "ViI (a Myoviridae virus)",
+      "morphology": "Myoviridae",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "extra": {}
+    },
+    "ViII (a Siphoviridae virus)": {
+      "phage_name_or_id": "ViII (a Siphoviridae virus)",
+      "morphology": "Siphoviridae",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "extra": {}
+    },
+    "ViIII to ViVII (Podoviridae viruses)": {
+      "phage_name_or_id": "ViIII to ViVII (Podoviridae viruses)",
+      "morphology": "Podoviridae",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "extra": {}
+    }
+  }
+}

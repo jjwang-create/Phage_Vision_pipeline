@@ -1,0 +1,171 @@
+{
+  "title": "A Conserved Acetyl Esterase Domain Targets Diverse Bacteriophages to the Vi Capsular Receptor of Salmonella enterica Serovar Typhi",
+  "summary": "The paper describes a diverse set of Vi phages targeting the Vi capsular antigen of Salmonella enterica serovar Typhi, belonging to the Myoviridae, Siphoviridae, and Podoviridae families. These phages were isolated from various geographic regions and clinical samples, with distinct plaque morphologies and genome characteristics. They share a conserved acetyl esterase domain in their tail spike proteins, essential for recognizing the Vi capsule. The phages exhibit varying degrees of genomic similarity to known phages like T7, SP6, and K1F, and some possess multiple tail spike proteins.",
+  "phages": {
+    "Vi phage I": {
+      "phage_name_or_id": "Vi phage I",
+      "taxonomy": "Myoviridae",
+      "geographic_region": "Toronto, Canada",
+      "isolation_source": "clinical samples of stools from patients with typhoid fever",
+      "isolation_date": "1930s",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "very small plaques of 0.02 cm",
+      "morphology": "isometric icosahedron-shaped head, ∼88 nm from apex to tail joint, ∼90-nm width, tail ∼115 nm in length, ∼18 nm in diameter, complex tail fiber structure",
+      "genome_size_kb": "157",
+      "gene_count": "209",
+      "structural_proteins": "Vi01_170c, Vi01_171c, Vi01_172c (tail spike proteins)",
+      "growth_medium": "Luria broth or agar plates at 37°C supplemented with aromatic amino acids",
+      "incubation_temperature_C": "37",
+      "similarity_percent": "remarkable synteny with Shigella phage phiSboM-AG3",
+      "extra": {
+        "tail_spike_proteins": "three candidate tail spike proteins",
+        "genome_accession": "related to GenBank accession number NC_013693"
+      }
+    },
+    "Vi phage II-E1": {
+      "phage_name_or_id": "Vi phage II-E1",
+      "taxonomy": "Siphoviridae",
+      "geographic_region": "Stanford University",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "0.15-cm plaques",
+      "extra": {}
+    },
+    "Vi phage III": {
+      "phage_name_or_id": "Vi phage III",
+      "taxonomy": "Podoviridae, Autographivirinae subfamily, T7-like genus",
+      "geographic_region": "Toronto, Canada",
+      "isolation_source": "clinical samples of stools from patients with typhoid fever",
+      "isolation_date": "1930s",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "0.25 cm in diameter",
+      "morphology": "icosahedral capsid with a diameter of ∼60 nm, short tails",
+      "similarity_percent": "closely resembles enterobacterial phage K1F",
+      "extra": {}
+    },
+    "Vi phage IV": {
+      "phage_name_or_id": "Vi phage IV",
+      "taxonomy": "Podoviridae",
+      "geographic_region": "Toronto, Canada",
+      "isolation_source": "clinical samples of stools from patients with typhoid fever",
+      "isolation_date": "1930s",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "heterogeneous in size and appearance",
+      "morphology": "icosahedral capsid with a diameter of ∼60 nm, short tails",
+      "similarity_percent": "most clearly resembles Salmonella phage SP6",
+      "extra": {
+        "tail_spike_proteins": "one extra tail spike"
+      }
+    },
+    "Vi phage V": {
+      "phage_name_or_id": "Vi phage V",
+      "taxonomy": "Podoviridae, Autographivirinae subfamily, T7-like genus",
+      "geographic_region": "Quebec, Canada",
+      "isolation_source": "isolated by Desranleau",
+      "isolation_date": "1948",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "0.3- to 0.4-cm plaques with turbid centers",
+      "morphology": "icosahedral capsid with a diameter of ∼60 nm, short tails",
+      "similarity_percent": "90% with respect to Vi phages VI and VII",
+      "extra": {}
+    },
+    "Vi phage VI": {
+      "phage_name_or_id": "Vi phage VI",
+      "taxonomy": "Podoviridae, Autographivirinae subfamily, T7-like genus",
+      "geographic_region": "Quebec, Canada",
+      "isolation_source": "isolated by Desranleau",
+      "isolation_date": "1948",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "0.3- to 0.4-cm plaques, consistently the largest and strikingly clear centers",
+      "morphology": "icosahedral capsid with a diameter of ∼60 nm, short tails",
+      "similarity_percent": "95% with respect to Vi phage VII",
+      "extra": {}
+    },
+    "Vi phage VII": {
+      "phage_name_or_id": "Vi phage VII",
+      "taxonomy": "Podoviridae, Autographivirinae subfamily, T7-like genus",
+      "geographic_region": "Germany",
+      "isolation_date": "1955",
+      "host_bacterium": "Salmonella enterica serovar Typhi",
+      "plaque_morphology": "0.3- to 0.4-cm plaques with turbid centers",
+      "morphology": "icosahedral capsid with a diameter of ∼60 nm, short tails",
+      "similarity_percent": "95% with respect to Vi phage VI",
+      "extra": {}
+    },
+    "Salmonella phage Det7": {
+      "phage_name_or_id": "Salmonella phage Det7",
+      "extra": {}
+    },
+    "Salmonella phage 10": {
+      "phage_name_or_id": "Salmonella phage 10",
+      "extra": {}
+    },
+    "Shigella phage phiSboM-AG3": {
+      "phage_name_or_id": "Shigella phage phiSboM-AG3",
+      "extra": {}
+    },
+    "Prochlorococcus phage P-SSM2": {
+      "phage_name_or_id": "Prochlorococcus phage P-SSM2",
+      "extra": {}
+    },
+    "Synechococcus phage S-PM2": {
+      "phage_name_or_id": "Synechococcus phage S-PM2",
+      "extra": {}
+    },
+    "Enterobacterial phage K1F": {
+      "phage_name_or_id": "Enterobacterial phage K1F",
+      "extra": {}
+    },
+    "Enterobacterial phage EcoDS1": {
+      "phage_name_or_id": "Enterobacterial phage EcoDS1",
+      "extra": {}
+    },
+    "Salmonella phage SP6": {
+      "phage_name_or_id": "Salmonella phage SP6",
+      "extra": {}
+    },
+    "Enterobacterial phage K1-5": {
+      "phage_name_or_id": "Enterobacterial phage K1-5",
+      "extra": {}
+    },
+    "Enterobacterial phage K1E": {
+      "phage_name_or_id": "Enterobacterial phage K1E",
+      "extra": {}
+    },
+    "T4": {
+      "phage_name_or_id": "T4",
+      "extra": {}
+    },
+    "T7": {
+      "phage_name_or_id": "T7",
+      "extra": {}
+    },
+    "λ": {
+      "phage_name_or_id": "λ",
+      "extra": {}
+    },
+    "ES18": {
+      "phage_name_or_id": "ES18",
+      "extra": {}
+    },
+    "SP6": {
+      "phage_name_or_id": "SP6",
+      "extra": {}
+    },
+    "K1F": {
+      "phage_name_or_id": "K1F",
+      "extra": {}
+    },
+    "EcoDS1": {
+      "phage_name_or_id": "EcoDS1",
+      "extra": {}
+    },
+    "K1-5": {
+      "phage_name_or_id": "K1-5",
+      "extra": {}
+    },
+    "K1E": {
+      "phage_name_or_id": "K1E",
+      "extra": {}
+    }
+  }
+}

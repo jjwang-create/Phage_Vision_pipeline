@@ -1,0 +1,78 @@
+{
+  "title": "Abortive Infection Mechanisms and Prophage Sequences Significantly Influence the Genetic Makeup of Emerging Lytic Lactococcal Phages",
+  "abstract": "In this study, we demonstrated the remarkable genome plasticity of lytic lactococcal phages that allows them to rapidly adapt to the dynamic dairy environment. The lytic double-stranded DNA phage ul36 was used to sequentially infect a wild-type strain of Lactococcus lactis and two isogenic derivatives with genes encoding two phage resistance mechanisms, AbiK and AbiT. Four phage mutants resistant to one or both Abi mechanisms were isolated. Comparative analysis of their complete genomes, as well as morphological observations, revealed that phage ul36 extensively evolved by large-scale homologous and nonhomologous recombination events with the inducible prophage present in the host strain. One phage mutant exchanged as much as 79% of its genome compared to the core genome of ul36. Thus, natural phage defense mechanisms and prophage elements found in bacterial chromosomes contribute significantly to the evolution of the lytic phage population.",
+  "Isolation and characterization of phage mutants.": [
+    {
+      "para_id": 1,
+      "content": "Lactococcal phage mutants resistant to Abi systems were isolated in the laboratory from GM17 lysates (27) as shown in Fig.1A. The wild-type lytic phage ul36 (GenBank accession number AF349457) was first propagated onL. lactisSMQ-86 containing the AbiK system. A phage mutant resistant to AbiK was isolated at a frequency of 10−7and designated ul36.k1. This phage was then propagated on the sameL. lactishost carrying AbiT. Another phage mutant (ul36.k1t1) was obtained at a frequency of 10−8, and this mutant was not sensitive to either Abi system. In parallel, a similar experiment was conducted by first propagating ul36 on an AbiT-containing host strain and then propagating it on an AbiK+strain. Two phage mutants, ul36.t1 and ul36.t1k1, were isolated at frequencies of 10−8and 10−7, respectively."
+    },
+    {
+      "para_id": 2,
+      "content": "The efficiency of plaquing (EOP) of wild-type phage ul36 on strains carrying AbiK or AbiT was in the range from 10−6to 10−8, while the two double phage mutants (ul36.k1t1 and ul36.t1k1) were totally resistant to both Abi systems (EOP, 1.0). As expected, phage ul36.k1 was resistant only to AbiK, but phage ul36.t1 was not sensitive to AbiT and, surprisingly, was also slightly resistant to AbiK (EOP, 10−4). The genomic DNA of these phages were isolated (Lambda Maxi kit; QIAGEN), and their EcoRI (Roche) restriction profiles indicated that they were related but distinct (Fig.1B). Electron microscopy observations (Fig.1A) confirmed that wild-type phage ul36 has an isometric capsid, a noncontractile tail, and a two-disk baseplate, which mediates the initial interaction with the cell receptor (24,29). Interestingly, only phage mutant ul36.k1 has the double-disk baseplate structure of phage ul36. The three other phage mutants (ul36.t1, ul36.t1k1, and ul36.k1t1) have a one-disk baseplate. The tails of these three phages are also slightly longer (120 ± 6.2 nm) than the tails of ul36 and ul36.k1 (99 ± 5 nm). In order to shed light on the origin of the phage mutants, their entire dsDNA genomes were sequenced (Integrated Genomics Inc. and Centre de Recherche du CHUL/CHUQ) (Fig.2)."
+    }
+  ],
+  "Phage ul36.k1.": [
+    {
+      "para_id": 3,
+      "content": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp and has an overall G+C content of 35.7% (GenBank accession number DB394806). This genome is 333 bp larger that the genome of wild-type phage ul36 (36,798 bp; G+C content, 35.8%). However, the two genomes are almost identical. The only difference is a 2,533-nucleotide region (coordinates 6613 to 9146) in phage ul36.k1, which represents 6.8% of the genome (Fig.2). Interestingly, this DNA segment acquired by ul36.k1 is identical to a segment previously described for phage ul36.1, which is also resistant to AbiK (4)."
+    }
+  ],
+  "Phage ul36.k1t1.": [
+    {
+      "para_id": 4,
+      "content": "The AbiK- and AbiT-resistant phage mutant ul36.k1t1 has a genome that contains 35,594 bp and has an overall G+C content of 35.7% (GenBank accession number DB394807). Comparative analysis indicated that only 27% of the genome of phage ul36.k1t1 is present in wild-type phage ul36, while 34% is present in ul36.k1. However, 23,430 bp of the phage ul36.k1t1 genome was not found in the genomes of ul36.k1 and ul36. The divergent region contains all the genes involved in phage morphogenesis and cell lysis, which may explain the differences in tail length and in the structure of the baseplate."
+    }
+  ],
+  "Phage ul36.t1.": [
+    {
+      "para_id": 5,
+      "content": "The genome of the AbiT-resistant ul36.t1 phage contains 35,992 bp and has an overall G+C content of 36.0% (GenBank accession number DB394808), and it is 806 bp shorter than the genome of wild-type phage ul36. Sequence analysis showed that 36% of the ul36.t1 genome is present in the genome of ul36, confirming the relationship of these phages (Fig.2). The remaining 23,179 bp (64%) of the ul36.t1 genome is different from the phage ul36 genome, indicating that there was significant genomic modification. Again, the morphogenesis and lysis modules were divergent in the two phages, which is in agreement with the morphological observations (Fig.1A). Interestingly, the genome of phage ul36.t1 exhibits 78% identity with the genome of phage ul36.k1t1, indicating that these two phages acquired the same DNA. The difference between ul36.k1t1 and ul36.t1 was mainly in the area containing the genes coding for proteins involved in DNA replication and transcription."
+    }
+  ],
+  "Phage ul36.t1k1.": [
+    {
+      "para_id": 6,
+      "content": "The genome of the AbiT- and AbiK-resistant phage mutant ul36.t1k1 contains 34,897 bp and has an overall G+C content of 35.8% (GenBank accession number DB394809). This phage has the shortest genome of the five lytic phages analyzed here. Comparative analysis demonstrated that the ul36.t1k1 genome exhibits 84% identity with the genome of ul36.t1 (Fig.2). The main difference was again in the genes coding for proteins involved in DNA replication and transcription. Surprisingly, ul36.t1k1 contains only 21% of the original core DNA from ul36."
+    },
+    {
+      "para_id": 7,
+      "content": "Taken altogether, these results showed that the four derivatives of phage ul36 picked up new DNA. The acquisition of such large DNA segments is rather exceptional, and it occurred without affecting the functional capacities of the resulting phage hybrids. This clearly indicates that there are exchangeable and compatible modules. Thus, some of the gene products are highly fit to work together, which would be expected for proteins necessary for the phage structure. Therefore, the functional new DNA must have come from another phage. This prompted us to sequence the complete genome of the only known inducible prophage ofL. lactisSMQ-86, φsmq86."
+    }
+  ],
+  "Prophage φsmq86.": [
+    {
+      "para_id": 8,
+      "content": "Following induction with mitomycin C (5 μg/ml), the prophage was purified for electron microscopy observation, and its DNA was isolated for sequencing. Prophage φsmq86 had the same morphological features as the lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1 (Fig.1A). The genome of prophage φsmq86 contains 33,641 bp and has an overall G+C content of 36.0% (GenBank accession number DB394810). Thus, the genome of φsmq86 is smaller than the genomes of five lytic phages. Fifty-one open reading frames (ORFs) consisting of 40 or more codons were identified, and functions were attributed to 17 ORFs based on homology with proteins with putative functions or conserved domains (Table1). The genome of φsmq86 is organized into different functional modules, as observed in other phages (10,14,25) (Fig.2). All ORFs are on the same strand, except for the four genes (orf1toorf4) of the lysogeny module. Many gene products exhibit homology with counterparts found in other phages belonging to the P335 group, prompting classification of φsmq86 in this group (15). However, the deduced proteins involved in packaging and capsid morphogenesis exhibit no similarity to known proteins ofL. lactisphages. Comparative nucleotide sequence analysis confirmed that most of the DNA acquired by the new lytic phages obtained in this study came from φsmq86."
+    }
+  ],
+  "Comparisons between φsmq86, ul36.t1, and ul36.t1k1.": [
+    {
+      "para_id": 9,
+      "content": "All of the new DNA picked up by ul36.t1k1 came from prophage φsmq86, except for a 100-bp region that is repeated three times from coordinates 8216 to 8315, 8316 to 8415, and 8416 to 8515 in ul36.t1k1. The same observation was made for ul36.t1 as a short 1,165-nucleotide insertion inorf46, possibly coding for the receptor-binding protein (Fig.2), was not found in the inducible prophage. But this 1.1-kb region of ul36.t1 exhibits homology with therbpgene of otherL. lactisphages, suggesting that a second recombination event took place with another prophage (most likely defective) ofL. lactisSMQ-86. It is known thatrbpgenes are the site of frequent DNA shuffling that favors the generation of phage variants with altered host ranges (18,22,28)."
+    }
+  ],
+  "Comparisons between φsmq86, ul36.k1, and ul36.k1t1.": [
+    {
+      "para_id": 10,
+      "content": "As indicated previously, the exchanged DNA (2.5 kb) in phage ul36.k1 has been investigated (4). Phage ul36.k1t1 contains this 2.5-kb segment but also acquired a large DNA fragment from prophage φsmq86 (Fig.2). However, another region (2.4 kb) covering therbpgene (orf46) and the lysis genes was unique to ul36.k1t1 (Fig.2). Again, this segment is likely the result of another recombination event with a resident prophage inL. lactisSMQ-86."
+    }
+  ],
+  "Comparison between φsmq86 and ul36.": [
+    {
+      "para_id": 11,
+      "content": "Pairwise comparison of the entire genomes of the lytic phage ul36 and the inducible prophage φsmq86 revealed a very limited number of identical nucleotides that could serve as substrates for homologous recombination. Most matching DNA regions were between coordinates 11,000 and 14,000 in ul36. This finding supports the hypothesis that one of the recombination events in phages ul36.k1t1 and ul36.t1 occurred by homologous recombination in this region. Otherwise, it appears that the other recombination events were illegitimate."
+    }
+  ],
+  "Influence of Abi systems and strain rotation on phage evolution.": [
+    {
+      "para_id": 12,
+      "content": "Viruses are known to mutate during amplification cycles, and the presence of various selective pressures, such as host diversity and barriers, influences the nature of the infectious population. Lactococcal phages typically face such shifting selective pressures in the dairy environment. It has been reported previously that two general types of lactococcal phage mutants resulting from the selective pressure of Abi systems can be isolated (13). The first class of Abi-resistant phage mutants carry only point mutations (5,13), while the second class is the result of recombination with phage-related sequences present in the host chromosome (4,19,27). All the mutant phages isolated in this study belonged to the second class of mutants. To different extents, they all acquired new DNA by homologous or illegitimate recombination, mostly from an inducible prophage. The percentage of DNA exchanged in the genomes ranged from 6.8% (ul36.k1) to a remarkable 79% (ul36.t1k1). The frequency at which the ul36 derivatives were obtained (10−7to 10−8) suggests that they were already present in the high-titer lysates used to challenge the Abi-containing strains. In fact, these lysates likely contained a population consisting mostly of phages with the ul36 genetic make-up but also containing some functional and nonfunctional derivatives carrying genetic variations. In the presence of a specific selective pressure, the fittest organisms rapidly multiply, while the other organisms remain at low levels or eventually are eliminated. This study provided biological evidence that Abi systems and prophage DNA can significantly influence the genetic make-up of lytic phages. It also demonstrated that the genome plasticity of lactococcal phages allows them to rapidly adapt to new environments. In fact, the practice of rotating isogenic strains carrying different antiphage systems appears to significantly contribute to the emergence of new lytic phage variants, at least for P335-like phages. Interestingly, sequential encounters with a specific phage resistance mechanism also determine the direction of phage evolution."
+    }
+  ],
+  "Phage-bacterium coevolution.": [
+    {
+      "para_id": 13,
+      "content": "Since prophage elements are found in many bacterial genomes (11), the probability that phages will infect a cell and recombine with a prophage genome(s) by homologous or illegitimate recombination is rather high. This genomic reshuffling inexorably leads to the emergence of new phages and quite possibly to new bacterial strains as well. Considering the astonishing genomic rearrangement observed in some of the phage ul36 derivatives and the presence of numerous phage defense systems in bacteria, this phage-bacterium coevolution may be more significant than previously envisaged."
+    }
+  ]
+}

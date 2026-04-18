@@ -1,0 +1,354 @@
+{
+  "title": "A Conserved Acetyl Esterase Domain Targets Diverse Bacteriophages to the Vi Capsular Receptor of Salmonella enterica Serovar Typhi",
+  "summary": "The study characterizes a collection of Vi phages targeting Salmonella Typhi, revealing morphological diversity across three families: Myoviridae (Vi phage I), Siphoviridae (Vi phage II), and Podoviridae (Vi phages III-VII). Vi phage I has a complex Myoviridae structure with an isometric icosahedral head (~88-90 nm) and a long contractile tail (~115 nm). The Podoviridae members (III-VII) have icosahedral capsids (~60 nm diameter) with short tails. All phages encode tail spike proteins with an acetyl esterase domain for Vi capsule recognition.",
+  "phages": {
+    "Vi phage I": {
+      "phage_name_or_id": "Vi phage I",
+      "morphology": "Myoviridae morphotype A1, isometric icosahedron-shaped head, complex tail fiber structure",
+      "virion_diameter_nm": "~90-nm width",
+      "capsid_size": "~88 nm from apex to tail joint and ~90-nm width",
+      "tail_length_nm": "~115 nm",
+      "tail_width_nm": "~18 nm",
+      "plaque_morphology": "very small plaques of 0.02 cm",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "157 kbp",
+      "structural_proteins": "capsid, DNA packaging, and neck proteins (Vi01_152c to Vi01_166c), three tail spike proteins (Vi01_170c, Vi01_171c, Vi01_172c)",
+      "extra": {
+        "head_shape": "icosahedron-shaped head with visible small extension at each corner",
+        "tail_features": "collar present, end plate terminating the tail, intricate array of minor tail fibers, four-pronged arrangement of fine tail fibers",
+        "tail_contraction": "smaller inset image most likely shows the phage after tail contraction",
+        "similar_phages": "similar to Salmonella phage Det7 and S. Heidelberg phage 10 tail fiber structures, resembles Shigella boydii phage phiSboM-AG3"
+      }
+    },
+    "Vi phage II": {
+      "phage_name_or_id": "Vi phage II",
+      "morphology": "Siphoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "related_phage": "related to S. Typhimurium phage ES18",
+        "synteny": "shares regions of synteny with the lysogenic phage ES18"
+      }
+    },
+    "Vi phage II-E1": {
+      "phage_name_or_id": "Vi phage II-E1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "0.15-cm plaques",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "Vi phage III": {
+      "phage_name_or_id": "Vi phage III",
+      "morphology": "Podoviridae, icosahedral capsid",
+      "virion_diameter_nm": "~60 nm",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "0.25 cm in diameter",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike protein",
+      "extra": {
+        "genomic_similarity": "closely resembles enterobacterial phage K1F, marked similarity to EcoDS1 and T7",
+        "classification": "Autographivirinae subfamily, T7-like genus",
+        "tail_spike_features": "N-terminal domain with homology to known tail spike proteins (e.g., Gp36 in K1F)"
+      }
+    },
+    "Vi phage IV": {
+      "phage_name_or_id": "Vi phage IV",
+      "morphology": "Podoviridae, icosahedral capsid",
+      "virion_diameter_nm": "~60 nm",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "heterogeneous in size and appearance",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "one extra tail spike (Vi04_59), trimeric adaptor protein gp37 homolog (Vi04_45)",
+      "extra": {
+        "genomic_similarity": "most clearly resembles S. Typhimurium lytic phage SP6, synteny to Salmonella phage SP6",
+        "tail_spike_attachment": "tail spike attached by trimeric adaptor protein gp37 (different mechanism from other Vi Podoviridae)",
+        "unique_gene": "putative S-adenosylmethionine hydrolase gene not present in SP6, K1-5, or K1E"
+      }
+    },
+    "Vi phage V": {
+      "phage_name_or_id": "Vi phage V",
+      "morphology": "Podoviridae, icosahedral capsid",
+      "virion_diameter_nm": "~60 nm",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "0.3- to 0.4-cm plaques with turbid centers",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike protein",
+      "extra": {
+        "genomic_similarity": "most closely resembles T7 phage, >90% homology to Vi phages VI and VII at DNA level",
+        "classification": "Autographivirinae subfamily, T7-like genus",
+        "tail_spike_features": "N-terminal domain similar to T7 Gp17"
+      }
+    },
+    "Vi phage VI": {
+      "phage_name_or_id": "Vi phage VI",
+      "morphology": "Podoviridae, icosahedral capsid",
+      "virion_diameter_nm": "~60 nm",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "0.3- to 0.4-cm plaques, consistently the largest and having strikingly clear centers",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike Vi06_43, capsid assembly protein Vi06_34, major capsid protein Vi06_35",
+      "extra": {
+        "genomic_similarity": "most closely resembles T7 phage, >95% homology to Vi phage VII at DNA level",
+        "classification": "Autographivirinae subfamily, T7-like genus",
+        "tail_structure": "arrangement of six minor fine tail fibers seen in electron micrograph",
+        "mass_spec_identified": "tail constituents (part of gp17 of T7), head-to-tail joining protein (gp8), internal virion proteins (gp14, gp15, gp16 equivalents)"
+      }
+    },
+    "Vi phage VII": {
+      "phage_name_or_id": "Vi phage VII",
+      "morphology": "Podoviridae, icosahedral capsid",
+      "virion_diameter_nm": "~60 nm",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "0.3- to 0.4-cm plaques with turbid centers",
+      "host_bacterium": "S. Typhi BRD948",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike protein",
+      "extra": {
+        "genomic_similarity": "most closely resembles T7 phage, >95% homology to Vi phage VI at DNA level",
+        "classification": "Autographivirinae subfamily, T7-like genus",
+        "tail_spike_features": "N-terminal domain similar to T7 Gp17"
+      }
+    },
+    "Salmonella phage Det7": {
+      "phage_name_or_id": "Salmonella phage Det7",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "similarity": "Vi phage I tail fiber structure reminiscent of Salmonella phage Det7"
+      }
+    },
+    "S. Heidelberg phage 10": {
+      "phage_name_or_id": "S. Heidelberg phage 10",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "similarity": "Vi phage I tail fiber structures very similar to those reported for S. Heidelberg phage 10"
+      }
+    },
+    "T7": {
+      "phage_name_or_id": "T7",
+      "morphology": "Podoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike protein Gp17",
+      "extra": {
+        "role": "well-studied example of Podoviridae",
+        "structural_studies": "arrangement previously described in structural studies of T7 and K1E phage",
+        "genomic_similarity": "Vi phages V, VI, and VII most closely resemble T7"
+      }
+    },
+    "SP6": {
+      "phage_name_or_id": "SP6",
+      "morphology": "Podoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "trimeric adaptor protein gp37, tail spike protein",
+      "extra": {
+        "role": "well-studied example of Podoviridae",
+        "genomic_similarity": "Vi phage IV most clearly resembles S. Typhimurium lytic phage SP6"
+      }
+    },
+    "Shigella boydii phage phiSboM-AG3": {
+      "phage_name_or_id": "Shigella boydii phage phiSboM-AG3",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "Vi phage I closely resembles phiSboM-AG3, displaying remarkable synteny",
+        "shared_proteins": "170 proteins have homology between Vi phage I and phiSboM-AG3, 72 predicted proteins unique to both"
+      }
+    },
+    "Prochlorococcus phage P-SSM2": {
+      "phage_name_or_id": "Prochlorococcus phage P-SSM2",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "capsid, DNA packaging, and neck protein gene cluster in Vi phage I found with variable homology in cyanobacterial lytic phages like P-SSM2"
+      }
+    },
+    "Synechococcus phage S-PM2": {
+      "phage_name_or_id": "Synechococcus phage S-PM2",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "capsid, DNA packaging, and neck protein gene cluster in Vi phage I found with variable homology in cyanobacterial lytic phages like S-PM2; T4 prototypes in Vi phage I closely matched those in S-PM2"
+      }
+    },
+    "T4": {
+      "phage_name_or_id": "T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "significant number of genes with known prototypes carried by T4 phage identified in Vi phage I annotation"
+      }
+    },
+    "enterobacterial phage K1F": {
+      "phage_name_or_id": "enterobacterial phage K1F",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "tail spike protein Gp36",
+      "extra": {
+        "genomic_similarity": "Vi phage III closely resembles K1F; K1F is another member of the T7-like phage genus"
+      }
+    },
+    "enterobacterial phage EcoDS1": {
+      "phage_name_or_id": "enterobacterial phage EcoDS1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "Vi phage III has marked similarity to EcoDS1"
+      }
+    },
+    "Salmonella phage SP6": {
+      "phage_name_or_id": "Salmonella phage SP6",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "Vi phage IV most clearly resembles S. Typhimurium lytic phage SP6"
+      }
+    },
+    "enterobacterial phage K1-5": {
+      "phage_name_or_id": "enterobacterial phage K1-5",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "Vi phage IV compared to K1-5"
+      }
+    },
+    "enterobacterial phage K1E": {
+      "phage_name_or_id": "enterobacterial phage K1E",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_similarity": "Vi phage IV compared to K1E; structural studies of K1E phage mentioned",
+        "tail_spike_attachment": "K1E uses trimeric adaptor protein gp37 for tail spike attachment"
+      }
+    },
+    "S. Typhimurium phage ES18": {
+      "phage_name_or_id": "S. Typhimurium phage ES18",
+      "morphology": "Siphoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "related_phage": "Vi phage II is a member of the Siphoviridae, related to ES18"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Articles of Significant Interest Selected from This Issue by the Editors",
+  "A CRISPR-Cas System Regulates the Timing of Sporulation during Myxococcus xanthus Development": [
+    {
+      "para_id": 1,
+      "content": "CRISPR-Cas systems in bacteria typically mediate adaptive immunity against phages. TheMyxococcus xanthus devoperon is a CRISPR-Cas system implicated in developmental regulation. Rajagopalan and Kroos (e00788-16) discovered that mutants lackingdevIor the entiredevoperon form spores about 6 h earlier than the wild type. In contrast,devT,devR, anddevSmutants overexpressdevIand fail to form spores. The DevTRS proteins are proposed to form a Cascade-like subcomplex that downregulates production of DevI, a sporulation inhibitor. Most natural isolates lack a functionaldevCRISPR-Cas system, suggesting that the system evolved recently in niches where delayed sporulation proved advantageous."
+    }
+  ],
+  "Profound Influence of Light on Acinetobacter baumannii Lifestyle": [
+    {
+      "para_id": 2,
+      "content": "A detailed knowledge ofAcinetobacter baumanniipathophysiology is essential to envisage alternative strategies to combat this critical nosocomial pathogen. Müller et al. (e00011-17) present the novel finding that light directly regulates metabolism in this chemotrophic bacterium through the photoreceptor BlsA. In addition, tolerance to antibiotics and catalase levels are influenced by light, as is the expression of the type VI secretion system and efflux pumps, likely contributing to bacterial persistence in adverse environments."
+    }
+  ],
+  "Fluorescence High-Throughput Screening against TonB, the Central Component of Gram-Negative Bacterial Iron Acquisition": [
+    {
+      "para_id": 3,
+      "content": "The increasing antibiotic resistance of Gram-negative bacteria, especially the CRE/ESKAPE pathogens, calls for novel therapeutic agents against new physiological targets. Nairn et al. (e00889-16) performed fluorescence high-throughput screening (FLHTS) againstEscherichia colito find inhibitors of TonB-dependent iron transport. Compounds that block TonB action may prevent iron acquisition from eukaryotic hosts, reducing bacterial pathogenesis in humans and animals. FLHTS againstE. coliidentified several potential inhibitors of TonB-ExbBD. The authors also adapted FLHTS to the Gram-negative ESKAPE organismAcinetobacter baumannii. This FLHTS method may identify both species-specific and broad-spectrum agents against Gram-negative bacteria."
+    }
+  ]
+}

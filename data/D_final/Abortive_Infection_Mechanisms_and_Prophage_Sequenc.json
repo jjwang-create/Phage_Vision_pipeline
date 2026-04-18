@@ -1,0 +1,76 @@
+{
+  "title": "Abortive Infection Mechanisms and Prophage Sequences Significantly Influence the Genetic Makeup of Emerging Lytic Lactococcal Phages",
+  "summary": "The study describes the evolution of lytic lactococcal phages (ul36 and its mutants) through recombination with the inducible prophage φsmq86 in Lactococcus lactis. The phages exhibit genome plasticity, varying genome sizes, GC content, and morphological differences, particularly in tail length and baseplate structure. They show resistance to AbiK and AbiT systems, with significant genomic modifications.",
+  "phages": {
+    "Lactococcus phage ul36": {
+      "phage_name_or_id": "Lactococcus phage ul36",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_accession": "AF349457",
+      "morphology": "isometric capsid, noncontractile tail, two-disk baseplate",
+      "virion_diameter_nm": "99 ± 5 nm (tail length)",
+      "life_cycle_type": "lytic",
+      "extra": {}
+    },
+    "Lactococcus phage ul36.k1": {
+      "phage_name_or_id": "Lactococcus phage ul36.k1",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "morphology": "double-disk baseplate structure",
+      "virion_diameter_nm": "99 ± 5 nm (tail length)",
+      "life_cycle_type": "lytic",
+      "extra": {
+        "resistance": "AbiK"
+      }
+    },
+    "Lactococcus phage ul36.k1t1": {
+      "phage_name_or_id": "Lactococcus phage ul36.k1t1",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_accession": "DB394807",
+      "genome_size_kb": "35.594",
+      "GC_content_percent": "35.7",
+      "morphology": "one-disk baseplate",
+      "virion_diameter_nm": "120 ± 6.2 nm (tail length)",
+      "life_cycle_type": "lytic",
+      "extra": {
+        "resistance": "AbiK and AbiT"
+      }
+    },
+    "Lactococcus phage ul36.t1": {
+      "phage_name_or_id": "Lactococcus phage ul36.t1",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_accession": "DB394808",
+      "genome_size_kb": "35.992",
+      "GC_content_percent": "36.0",
+      "morphology": "one-disk baseplate",
+      "virion_diameter_nm": "120 ± 6.2 nm (tail length)",
+      "life_cycle_type": "lytic",
+      "extra": {
+        "resistance": "AbiT and slightly AbiK"
+      }
+    },
+    "Lactococcus phage ul36.t1k1": {
+      "phage_name_or_id": "Lactococcus phage ul36.t1k1",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_accession": "DB394809",
+      "genome_size_kb": "34.897",
+      "GC_content_percent": "35.8",
+      "morphology": "one-disk baseplate",
+      "virion_diameter_nm": "120 ± 6.2 nm (tail length)",
+      "life_cycle_type": "lytic",
+      "extra": {
+        "resistance": "AbiT and AbiK"
+      }
+    },
+    "Lactococcus prophage φsmq86": {
+      "phage_name_or_id": "Lactococcus prophage φsmq86",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_accession": "DB394810",
+      "genome_size_kb": "33.641",
+      "GC_content_percent": "36.0",
+      "morphology": "same as lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1",
+      "life_cycle_type": "prophage",
+      "extra": {
+        "taxonomy": "P335 group"
+      }
+    }
+  }
+}

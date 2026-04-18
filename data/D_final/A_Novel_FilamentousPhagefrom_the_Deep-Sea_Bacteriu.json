@@ -1,0 +1,34 @@
+{
+  "title": "A Novel Filamentous Phage from the Deep-Sea Bacterium Shewanella piezotolerans WP3 Is Induced at Low Temperature",
+  "summary": "The paper describes Shewanella phage SW1, a filamentous phage isolated from the deep-sea bacterium Shewanella piezotolerans WP3. SW1 has a 7,718 nucleotide genome with nine ORFs organized into replication, structural, assembly, and regulation modules. It exhibits temperature-regulated production, with higher phage yields at lower temperatures (4°C). SW1 infects Shewanella psychrophila WP2 and shows stability at 60°C but is inactivated at 70°C. The phage's transcription is induced by low temperature, mitomycin C, and UV irradiation, suggesting SOS control.",
+  "phages": {
+    "Shewanella phage SW1": {
+      "phage_name_or_id": "Shewanella phage SW1",
+      "taxonomy": "filamentous phage",
+      "habitat": "deep-sea",
+      "host_bacterium": "Shewanella piezotolerans WP3",
+      "host_range": "Shewanella psychrophila WP2",
+      "genome_size_kb": "7.718",
+      "gene_count": "9",
+      "morphology": "filamentous particle",
+      "life_cycle_type": "temperature-regulated production",
+      "thermal_inactivation_point": "70°C",
+      "growth_medium": "2216E medium (5 g/liter tryptone, 1 g/liter yeast extract, 0.1 g/liter FePO4, 34 g/liter NaCl)",
+      "incubation_temperature_C": "4 to 30°C",
+      "incubation_time": "1 to 3 days",
+      "extra": {
+        "modular_structures": "replication module, structural module, assembly module, regulation module",
+        "temperature_regulation": "higher production at 4°C",
+        "transcription_induction": "induced by low temperature, mitomycin C, UV irradiation"
+      }
+    },
+    "Escherichia coli M13 phage": {
+      "phage_name_or_id": "Escherichia coli M13 phage",
+      "extra": {}
+    },
+    "fs-2": {
+      "phage_name_or_id": "fs-2",
+      "extra": {}
+    }
+  }
+}

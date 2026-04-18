@@ -1,0 +1,16 @@
+{
+  "total_papers": 23,
+  "successful_evals": 21,
+  "failed_evals": 2,
+  "overall_avg_all": 6.971,
+  "overall_avg_success_only": 7.6349,
+  "overall_median_success_only": 8.0,
+  "dimension_averages_success_only": {
+    "phage_coverage_completeness": 6.2381,
+    "field_coverage_completeness": 5.1905,
+    "attribution_correctness": 8.5,
+    "value_fidelity_verbatim": 8.5238,
+    "schema_compliance": 8.7619,
+    "hallucination_and_noise_control": 8.5952
+  }
+}

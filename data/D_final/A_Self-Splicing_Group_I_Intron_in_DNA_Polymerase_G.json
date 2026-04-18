@@ -1,0 +1,21 @@
+{
+  "title": "A Self-Splicing Group I Intron in DNA Polymerase Genes of T7-Like Bacteriophages",
+  "summary": "Phages ΦI and W31, closely related to T7, contain self-splicing group I introns in their DNA polymerase genes, which splice efficiently in vivo and in vitro. These introns belong to subgroup IA2 and encode HNH family homing endonucleases. Phage ΦI was propagated in E. coli BE using Luria-Bertani medium at 37°C.",
+  "phages": {
+    "phage T4": {
+      "phage_name_or_id": "phage T4",
+      "extra": {}
+    },
+    "phage ΦI": {
+      "phage_name_or_id": "phage ΦI",
+      "host_bacterium": "E. coli BE",
+      "growth_medium": "Luria-Bertani medium",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage W31": {
+      "phage_name_or_id": "phage W31",
+      "extra": {}
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Abortive Phage Resistance Mechanism AbiZ Speeds the Lysis Clock To Cause Premature Lysis of Phage-Infected Lactococcus lactis",
+  "summary": "The paper discusses several Lactococcus phages, primarily focusing on their interactions with the abortive infection system AbiZ encoded by plasmid pTR2030. Phage φ31 and related phages (φ31.1, φ31.2) show varying sensitivities to AbiZ, which causes premature lysis and reduces burst size. Other P335 group phages (ul36, ul37, Q30) also exhibit sensitivity to AbiZ, while 936 group phages (sk1, p2) and c2 group phage c2 are largely resistant. The study highlights the role of AbiZ in interacting with phage holin to induce early lysis.",
+  "phages": {
+    "Lactococcus phage φ31": {
+      "phage_name_or_id": "Lactococcus phage φ31",
+      "host_bacterium": "Lactococcus lactis NCK203",
+      "burst_size": "316 ± 68",
+      "life_cycle_type": "lytic",
+      "extra": {
+        "efficiency_of_plaquing": "10 −6",
+        "lysis_time_reduction": "15 min early"
+      }
+    },
+    "Lactococcus phage φ31.1": {
+      "phage_name_or_id": "Lactococcus phage φ31.1",
+      "host_bacterium": "Lactococcus lactis NCK203",
+      "extra": {}
+    },
+    "Lactococcus phage φ31.2": {
+      "phage_name_or_id": "Lactococcus phage φ31.2",
+      "host_bacterium": "Lactococcus lactis NCK203",
+      "extra": {}
+    },
+    "Lactococcus phage ul36": {
+      "phage_name_or_id": "Lactococcus phage ul36",
+      "host_bacterium": "Lactococcus lactis",
+      "extra": {
+        "efficiency_of_plaquing": "6 × 10 −7"
+      }
+    },
+    "Lactococcus phage ul37": {
+      "phage_name_or_id": "Lactococcus phage ul37",
+      "host_bacterium": "Lactococcus lactis",
+      "extra": {
+        "efficiency_of_plaquing": "0.95"
+      }
+    },
+    "Lactococcus phage sk1": {
+      "phage_name_or_id": "Lactococcus phage sk1",
+      "host_bacterium": "Lactococcus lactis MG1363",
+      "extra": {
+        "efficiency_of_plaquing": "0.8"
+      }
+    },
+    "Lactococcus phage p2": {
+      "phage_name_or_id": "Lactococcus phage p2",
+      "host_bacterium": "Lactococcus lactis MG1363",
+      "extra": {
+        "efficiency_of_plaquing": "0.8"
+      }
+    },
+    "Lactococcus phage c2": {
+      "phage_name_or_id": "Lactococcus phage c2",
+      "host_bacterium": "Lactococcus lactis MG1363",
+      "extra": {
+        "efficiency_of_plaquing": "1"
+      }
+    },
+    "Lactococcus phage Q30": {
+      "phage_name_or_id": "Lactococcus phage Q30",
+      "host_bacterium": "Lactococcus lactis",
+      "extra": {}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "A Phage Protein Confers Resistance to the Lactococcal Abortive Infection Mechanism AbiP",
+  "summary": "The paper discusses phage bIL66M1 and its relationship with phage bIL170 regarding AbiP resistance, but provides no morphological or structural characterization of either phage.",
+  "phages": {
+    "bIL66M1": {
+      "phage_name_or_id": "bIL66M1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "bIL170": {
+      "phage_name_or_id": "bIL170",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

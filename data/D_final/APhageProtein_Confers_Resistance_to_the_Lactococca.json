@@ -1,0 +1,20 @@
+{
+  "title": "A Phage Protein Confers Resistance to the Lactococcal Abortive Infection Mechanism AbiP",
+  "summary": "Phages bIL66M1 and bIL170 are discussed in relation to the lactococcal abortive infection mechanism AbiP, with bIL66M1 being sensitive and bIL170 being resistant to AbiP.",
+  "phages": {
+    "bIL66M1": {
+      "phage_name_or_id": "bIL66M1",
+      "extra": {
+        "sensitivity_to_abiP": "sensitive",
+        "abiP_resistant_variants_frequency": "<10 −10"
+      }
+    },
+    "bIL170": {
+      "phage_name_or_id": "bIL170",
+      "extra": {
+        "sensitivity_to_abiP": "resistant",
+        "abiP_resistance_gene": "e6"
+      }
+    }
+  }
+}

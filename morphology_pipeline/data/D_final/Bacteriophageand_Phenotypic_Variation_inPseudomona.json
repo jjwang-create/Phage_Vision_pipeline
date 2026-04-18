@@ -1,0 +1,37 @@
+{
+  "title": "Bacteriophage and Phenotypic Variation in Pseudomonas aeruginosa Biofilm Development",
+  "summary": "The paper describes Pf4 as a filamentous phage (Pf1-like) that emerges from Pseudomonas aeruginosa biofilms and causes small-colony variants (SCVs). Pf1 is referenced as a related filamentous phage. No detailed virion dimensions or structural proteins are provided, but immunoelectron microscopy shows Pf4 filaments form dense, interwoven latticeworks on SCV cell surfaces.",
+  "phages": {
+    "Pf4": {
+      "phage_name_or_id": "Pf4",
+      "morphology": "filamentous phage, Pf1-like filamentous phage",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "capable of forming plaques on the P. aeruginosa host strain",
+      "host_bacterium": "Pseudomonas aeruginosa PAO1",
+      "genome_size_kb": "12-kb RF band",
+      "structural_proteins": "CoaB (PA0723; the major coat protein of the filamentous phage virion)",
+      "extra": {
+        "description": "filaments on the cell surface, often tightly interwoven into complex latticeworks surrounding the cells",
+        "immunogold_labeling": "rabbit anti-Pf4 antiserum used with 12-nm-diameter gold particles",
+        "replicative_form": "double-stranded circular copies of the genome known as replicative forms",
+        "superinfective": "able to form plaques on the lysogenic P. aeruginosa strain"
+      }
+    },
+    "Pf1": {
+      "phage_name_or_id": "Pf1",
+      "morphology": "filamentous phage, Pf1-like filamentous phage",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "CoaB (PA0723; the major coat protein of the filamentous phage virion)",
+      "extra": {}
+    }
+  }
+}

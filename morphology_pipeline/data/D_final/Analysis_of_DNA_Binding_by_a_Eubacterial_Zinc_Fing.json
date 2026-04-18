@@ -1,0 +1,58 @@
+{
+  "title": "Analysis of DNA Binding by a Eubacterial Zinc Finger Transcription Factor",
+  "summary": "The paper discusses the NucC protein from Serratia marcescens and its homology to transcription factors in P2- and P4-related bacteriophages. It mentions phages PSP3, φR73, P2, and P4 in the context of related proteins (PSP3 Pag, φR73 Delta, P4 Delta) but provides no morphological or structural details about these phages themselves.",
+  "phages": {
+    "PSP3": {
+      "phage_name_or_id": "PSP3",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "φR73": {
+      "phage_name_or_id": "φR73",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "P2": {
+      "phage_name_or_id": "P2",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "P4": {
+      "phage_name_or_id": "P4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

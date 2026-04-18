@@ -1,0 +1,21 @@
+{
+  "title": "Articles of Significant Interest in This Issue",
+  "A Bright Idea To Detect Horizontal Gene Transfer in Acinetobacter baumannii": [
+    {
+      "para_id": 1,
+      "content": "Acinetobacter baumannii, a multidrug-resistant (MDR) agent, has the ability to acquire genes through natural transformation. To study this mechanism, Godeux et al. (e00181-18) developed an assay allowing detection of transformation events using flow cytometry. To do so, they used as transforming DNA a DNA carrying a translation fusion between superfolder green fluorescent protein and a conserved nucleoid-associated protein, HU. Using this new method, they found that a low pH eases the acquisition of extracellular DNA. Applied to clinical and nonclinical strains, this method demonstrates that natural transformation is a conserved trait amongA. baumanniistrains."
+    }
+  ],
+  "Identification of Lipopolysaccharide as a Secondary Receptor Provides More Clues Involving Infection by a Flagellotropic Phage": [
+    {
+      "para_id": 2,
+      "content": "The infection mechanisms of flagellotropic phages, a subset of viruses targeting bacterial flagella, remain largely uncharacterized. Previously identified infection requirements for flagellum-dependent phages are directly related to flagellar structure and function. Gonzalez et al. (e00363-18) provide evidence that this type of bacterial virus utilizes lipopolysaccharide as a secondary cell surface receptor. These results suggest that flagellotropic phages use receptors subsequent to flagellar interactions to successfully and specifically infect their hosts."
+    }
+  ],
+  "Metabolic Consequence of the Loss of Fatty Acid Kinase on Staphylococcus aureus": [
+    {
+      "para_id": 3,
+      "content": "Fatty acid kinase, called both FakA and VfrB, is necessary for exogenous fatty acid utilization inStaphylococcus aureus. Using a genetic and mass spectrometry-based approach, DeMars and Bose (e00345-18) demonstrate that FakA alters acetate metabolism and identify differences in central metabolism intermediates, redox state, and concentrations of intracellular amino acids. Urea cycle amino acid levels were altered and urease activity was increased in the absence offakA. Finally, they demonstrate a need for amino acid utilization for growth ofS. aureuspost-glucose consumption. This study implicates the utilization of exogenous fatty acids as important for metabolic homeostasis."
+    }
+  ]
+}

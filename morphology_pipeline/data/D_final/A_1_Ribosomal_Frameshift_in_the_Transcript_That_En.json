@@ -1,0 +1,86 @@
+{
+  "title": "A −1 Ribosomal Frameshift in the Transcript That Encodes the Major Head Protein of Bacteriophage A2 Mediates Biosynthesis of a Second Essential Component of the Capsid",
+  "summary": "The paper focuses on the structural proteins of Lactobacillus bacteriophage A2, detailing its two major capsid proteins (gp5A and gp5B) derived from a -1 ribosomal frameshift, which are essential for viability and form the icosahedral capsid. Comparative mentions are made to phage T4 (gp23 and gp24), phage lambda (an essential morphogenetic protein), phage T7 (gp10B), and Listeria phage PSA (major head proteins from a +1 frameshift), but no morphological dimensions or family classifications are provided for any phage.",
+  "phages": {
+    "Lactobacillus bacteriophage A2": {
+      "phage_name_or_id": "Lactobacillus bacteriophage A2",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus casei ATCC 393",
+      "genome_size_kb": "",
+      "structural_proteins": "major capsid proteins gp5A and gp5B, major tail protein",
+      "extra": {
+        "capsid_structure": "icosahedral shell",
+        "protein_ratios": "calculated to be about 380 copies of gp5A and 110 copies of gp5B",
+        "protein_processing": "gp5A results from translation of orf5 and proteolytic processing after residue 123; gp5B originates through a -1 ribosomal frameshift at the penultimate codon of orf5 mRNA, resulting in a product that is 85 amino acids longer than gp5A",
+        "essential_proteins": "Both gp5A and gp5B appear to be essential for phage viability",
+        "speculated_capsid_architecture": "several gp5A monomers would interact to form the planar faces of the icosahedral shell, whereas gp5B would occupy the edges or vertices of the facets"
+      }
+    },
+    "phage T7": {
+      "phage_name_or_id": "phage T7",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "gp10B",
+      "extra": {
+        "frameshift_context": "Mutants unable to synthesize gp10B did not show any marked phenotype with respect to the wild-type phage"
+      }
+    },
+    "phage lambda": {
+      "phage_name_or_id": "phage lambda",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "an essential morphogenetic protein",
+      "extra": {
+        "frameshift_context": "the frameshift product is essential for viral propagation; it forms an essential morphogenetic protein in phage lambda"
+      }
+    },
+    "phage T4": {
+      "phage_name_or_id": "phage T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "gp23 and gp24",
+      "extra": {
+        "structural_comparison": "A similar situation has been found in phage T4 with gp23 and gp24, which, interestingly enough, share part of their sequences in spite of being encoded by separate genes",
+        "proteinase_reference": "as occurs with T4 prohead proteinase (T4 PPase), the analogous enzyme of phage T4"
+      }
+    },
+    "Listeria phage PSA": {
+      "phage_name_or_id": "Listeria phage PSA",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "two major head proteins",
+      "extra": {
+        "frameshift_context": "in the Listeria phage PSA, where the two major head proteins are derived from a single gene through a +1 frameshift, a similar capsid architecture has been postulated"
+      }
+    }
+  }
+}

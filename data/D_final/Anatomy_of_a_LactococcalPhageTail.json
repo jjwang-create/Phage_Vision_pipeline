@@ -1,0 +1,84 @@
+{
+  "title": "Anatomy of a Lactococcal Phage Tail",
+  "summary": "The paper focuses on the Siphoviridae family phages, particularly Tuc2009 and TP901-1, detailing their tail structures, host specificity, and morphogenesis. Tuc2009 exhibits a tail structure similar to λ, with a baseplate involved in host recognition and a collar structure at the head-tail interface. The study also compares these phages to other lactococcal phages like ul36, LC3, and r1t, highlighting genetic and structural similarities and differences.",
+  "phages": {
+    "Tuc2009": {
+      "phage_name_or_id": "Tuc2009",
+      "taxonomy": "Siphoviridae",
+      "host_bacterium": "Lactococcus lactis UC509.9",
+      "morphology": "small isometric head, long noncontractile tail, baseplate, collar structure, whisker-like appendages",
+      "structural_proteins": "Orf45 (MTP), Orf49 (Dit), Orf50 (Tal), Orf51 (BppU), Orf52 (BppA), Orf53 (BppL), Orf55 (NPS)",
+      "growth_medium": "M17 medium supplemented with 0.5% glucose (GM17) or glucose streptococcal broth medium",
+      "incubation_temperature_C": "30",
+      "extra": {
+        "tail_length_nm": "144",
+        "tail_diameter_nm": "10.5",
+        "head_diameter_nm": "small isometric",
+        "baseplate_structure": "single disk with teardrop-like appurtenances, conical structure with protruding fiber",
+        "tail_disks_count": "34"
+      }
+    },
+    "TP901-1": {
+      "phage_name_or_id": "TP901-1",
+      "taxonomy": "Siphoviridae",
+      "host_bacterium": "Lactococcus lactis 901-1",
+      "morphology": "double disk baseplate structure",
+      "structural_proteins": "BppU, BppL, Dit, Tal, TMP",
+      "extra": {
+        "baseplate_structure": "double disk",
+        "host_specificity": "L. lactis subsp. cremoris 3107"
+      }
+    },
+    "λ": {
+      "phage_name_or_id": "λ",
+      "taxonomy": "Siphoviridae",
+      "morphology": "isometric head, long noncontractile tail, baseplate",
+      "extra": {
+        "tail_length_nm": "135",
+        "tail_diameter_nm": "9",
+        "tail_disks_count": "32"
+      }
+    },
+    "ul36": {
+      "phage_name_or_id": "ul36",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "LC3": {
+      "phage_name_or_id": "LC3",
+      "taxonomy": "Siphoviridae",
+      "host_bacterium": "Lactococcus lactis subsp. cremoris 3107",
+      "extra": {}
+    },
+    "r1t": {
+      "phage_name_or_id": "r1t",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "bIL285": {
+      "phage_name_or_id": "bIL285",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "bIL286": {
+      "phage_name_or_id": "bIL286",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "bIL309": {
+      "phage_name_or_id": "bIL309",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "BK5-T": {
+      "phage_name_or_id": "BK5-T",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    },
+    "4268": {
+      "phage_name_or_id": "4268",
+      "taxonomy": "Siphoviridae",
+      "extra": {}
+    }
+  }
+}

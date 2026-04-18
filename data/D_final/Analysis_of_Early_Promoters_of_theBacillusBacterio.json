@@ -1,0 +1,25 @@
+{
+  "title": "Analysis of Early Promoters of theBacillus Bacteriophage GA-1",
+  "summary": "The paper characterizes bacteriophage GA-1, which infects Bacillus sp. strain G1R, and compares it to bacteriophage φ29, which infects Bacillus subtilis. GA-1 has unique promoters that are active early in infection and repressed later by protein p6, similar to φ29. Both phages share evolutionary relationships and functional similarities in their protein p6-mediated transcriptional repression mechanisms.",
+  "phages": {
+    "Bacteriophage GA-1": {
+      "phage_name_or_id": "Bacteriophage GA-1",
+      "host_bacterium": "Bacillus sp. strain G1R",
+      "growth_medium": "Luria-Bertani medium supplemented with 5 mM MgSO4",
+      "incubation_temperature_C": "37",
+      "extra": {
+        "protein_p6_function": "represses early promoters A1c, A1a, C1b, and C2",
+        "protein_p6_purification": "purified as described previously",
+        "transcription_assay_conditions": "25 mM Tris-HCl (pH 7.5), 10 mM MgCl2, 2 mM dithiothreitol, 200 μM each nucleoside triphosphate, 7.5 U of RNasin, 0.2 nM genomic GA-1 DNA, 200 nM ςA RNA polymerase"
+      }
+    },
+    "Bacteriophage φ29": {
+      "phage_name_or_id": "Bacteriophage φ29",
+      "host_bacterium": "Bacillus subtilis",
+      "extra": {
+        "protein_p6_function": "binds DNA with low sequence specificity, prefers regions with anisotropic bendability, can bind entire genome under certain conditions",
+        "protein_p6_purification": "purified from B. subtilis 110NA as described previously"
+      }
+    }
+  }
+}

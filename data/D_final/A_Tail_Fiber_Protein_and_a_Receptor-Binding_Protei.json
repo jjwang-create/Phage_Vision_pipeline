@@ -1,0 +1,21 @@
+{
+  "title": "A Tail Fiber Protein and a Receptor-Binding Protein Mediate ICP2 Bacteriophage Interactions with Vibrio cholerae OmpU",
+  "summary": "ICP2 is a virulent bacteriophage that preys on Vibrio cholerae, first isolated from cholera patient stool samples. It is morphologically categorized as a short-tailed podovirus with a 50-kb genome containing 73 putative protein-coding sequences. ICP2 uses the outer membrane porin protein OmpU as its receptor and has been shown to evolve host range mutants through mutations in putative tail fiber and adhesin genes.",
+  "phages": {
+    "ICP2": {
+      "phage_name_or_id": "ICP2",
+      "host_bacterium": "Vibrio cholerae",
+      "isolation_source": "cholera patient stool samples",
+      "morphology": "short-tailed podovirus",
+      "genome_size_kb": "50",
+      "gene_count": "73",
+      "receptor": "OmpU",
+      "extra": {}
+    },
+    "ICP2_2013_A_Haiti": {
+      "phage_name_or_id": "ICP2_2013_A_Haiti",
+      "genome_accession": "NC_024791.1",
+      "extra": {}
+    }
+  }
+}

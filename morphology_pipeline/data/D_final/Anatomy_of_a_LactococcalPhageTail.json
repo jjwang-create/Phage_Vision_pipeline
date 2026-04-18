@@ -1,0 +1,209 @@
+{
+  "title": "Anatomy of a Lactococcal Phage Tail",
+  "summary": "The paper provides a detailed anatomical description of the Siphoviridae phage Tuc2009, including its isometric head, long noncontractile tail, baseplate, collar, and whisker structures. It compares Tuc2009's morphology to λ and other lactococcal phages, identifying structural proteins and their locations. Other phages are mentioned in comparative genomic or morphological contexts.",
+  "phages": {
+    "Tuc2009": {
+      "phage_name_or_id": "Tuc2009",
+      "morphology": "Siphoviridae, small isometric head, long noncontractile tail, baseplate, collar structure, whisker-like appendages",
+      "virion_diameter_nm": "head diameter comparable to λ (mean measurements taken)",
+      "capsid_size": "",
+      "tail_length_nm": "144 nm",
+      "tail_width_nm": "10.5 nm in diameter",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis UC509.9",
+      "genome_size_kb": "",
+      "structural_proteins": "major head protein (encoded by orf37 and orf39 fusion), major tail protein (MTP_2009, encoded by orf45), portal protein (encoded by orf33), upper baseplate protein (BppU_2009, encoded by orf51), baseplate-associated protein (BppA_2009, encoded by orf52), lower baseplate protein (BppL_2009, encoded by orf53), neck passage structure (NPS_2009, encoded by orf55), tail tape measure protein (TMP_2009, encoded by orf48), distal tail protein (Dit_2009, encoded by orf49), Tal_2009 (encoded by orf50), tail assembly proteins gpG_2009 (encoded by orf46) and gpGT_2009 (encoded by orf46-47 fusion)",
+      "extra": {
+        "tail_structure": "tail tube consists of 34 ± 1 disks, central channel visible, knobbly appearance",
+        "baseplate_description": "single disk with irregular teardrop-like appurtenances (petticoat structure), conical structure under baseplate with protruding fiber",
+        "collar_and_whiskers": "collar at head-tail junction, two whisker-like appendages protruding from top of collar or bottom of head",
+        "protein_localization": "MTP_2009 coats entire tail shaft, Dit_2009 at base of tail, Tal_2009 at tail tip, BppU_2009 and BppL_2009 at baseplate, NPS_2009 at top of tail beneath head (collar and whiskers)",
+        "comparison_to_λ": "striking parity with λ in head diameter, tail length, tail diameter, and number of tail disks"
+      }
+    },
+    "TP901-1": {
+      "phage_name_or_id": "TP901-1",
+      "morphology": "Siphoviridae, double disk baseplate structure",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis 901-1",
+      "genome_size_kb": "",
+      "structural_proteins": "upper baseplate protein (BppU_TP901-1), lower baseplate protein (BppL_TP901-1), distal tail protein (Dit_TP901-1), Tal_TP901-1, tail tape measure protein (TMP_TP901-1)",
+      "extra": {
+        "baseplate_structure": "double disk baseplate comprised of BppU_TP901-1 (upper disk) and BppL_TP901-1 (lower disk) assembled onto conical fiber structure",
+        "tail_assembly": "TMP_TP901-1, Dit_TP901-1, and Tal_TP901-1 form initiator complex for tail assembly"
+      }
+    },
+    "TP901-1 48⁻": {
+      "phage_name_or_id": "TP901-1 48⁻",
+      "morphology": "mutant derivative lacking double baseplate structure",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "baseplate_absence": "lacks double baseplate structure characteristic of wild-type TP901-1",
+        "protein_localization": "TMP_2009 antibodies recognize structure at base of tail"
+      }
+    },
+    "ul36": {
+      "phage_name_or_id": "ul36",
+      "morphology": "Siphoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of Sfi11 group of P335 species lactococcal phages",
+        "structural_difference": "lacks nps_2009 homolog, no collar and whisker structures evident"
+      }
+    },
+    "LC3": {
+      "phage_name_or_id": "LC3",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "temperate phage placed in r1t group of P335 species lactococcal phages"
+      }
+    },
+    "r1t": {
+      "phage_name_or_id": "r1t",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "temperate phage placed in r1t group of P335 species lactococcal phages"
+      }
+    },
+    "λ": {
+      "phage_name_or_id": "λ",
+      "morphology": "Siphoviridae",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "135 nm",
+      "tail_width_nm": "9 nm in diameter (annular ring), central hole 3 nm in diameter",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "major tail protein (gpV), tail assembly proteins gpG and gpGT, tape measure protein (gpH), J tail fiber protein",
+      "extra": {
+        "tail_structure": "tail tube comprises 32 disks of gpV hexamers, each an annular ring with central hole and six outer knobs",
+        "comparison_to_Tuc2009": "striking similarities in head diameter, tail length, tail diameter, and number of tail disks"
+      }
+    },
+    "T4": {
+      "phage_name_or_id": "T4",
+      "morphology": "contractile tail",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "tail_symmetry": "sixfold rotational symmetry noted for contractile tail"
+      }
+    },
+    "bIL285": {
+      "phage_name_or_id": "bIL285",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of proposed Sfi21 group of P335 species lactococcal phages"
+      }
+    },
+    "bIL286": {
+      "phage_name_or_id": "bIL286",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of proposed Sfi21 group of P335 species lactococcal phages"
+      }
+    },
+    "bIL309": {
+      "phage_name_or_id": "bIL309",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of proposed Sfi21 group of P335 species lactococcal phages"
+      }
+    },
+    "BK5-T": {
+      "phage_name_or_id": "BK5-T",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of proposed Sfi21 group of P335 species lactococcal phages"
+      }
+    },
+    "4268": {
+      "phage_name_or_id": "4268",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "genomic_classification": "member of proposed Sfi21 group of P335 species lactococcal phages"
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "title": "A Novel Filamentous Phage from the Deep-Sea Bacterium Shewanella piezotolerans WP3 Is Induced at Low Temperature",
+  "summary": "The paper characterizes the filamentous phage SW1 isolated from Shewanella piezotolerans WP3. Electron microscopy confirms SW1 is a filamentous particle. The genome is 7,718 nucleotides with a modular organization typical of filamentous phages, containing structural proteins analogous to those of phage M13. Other phages (M13, fs-2, CTXφ) are mentioned only as comparative references without morphological details.",
+  "phages": {
+    "SW1": {
+      "phage_name_or_id": "SW1",
+      "morphology": "filamentous particle",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Shewanella piezotolerans WP3",
+      "genome_size_kb": "7.718",
+      "structural_proteins": "ORF61, ORF79, ORF44, ORF527, ORF105 comprise the structural module; ORF44 is the major coat protein",
+      "extra": {
+        "figure_captions": "",
+        "negative_findings": "",
+        "additional_structural_notes": "The structural module proteins are of the same size and in the same relative positions as gVII, gIX, gVIII, gIII, and gVI of the Escherichia coli M13 phage capsid structural module, respectively, although with low sequence similarities."
+      }
+    },
+    "M13": {
+      "phage_name_or_id": "M13",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "gVII, gIX, gVIII, gIII, gVI (capsid structural module proteins mentioned as reference for SW1)",
+      "extra": {}
+    },
+    "fs-2": {
+      "phage_name_or_id": "fs-2",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "negative_findings": "",
+        "additional_structural_notes": "Mentioned as a comparative filamentous phage whose plaque-forming activity is inhibited at a temperature 10°C higher than SW1."
+      }
+    },
+    "CTXφ": {
+      "phage_name_or_id": "CTXφ",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {
+        "negative_findings": "",
+        "additional_structural_notes": "Mentioned as a comparative phage whose production depends on inactivation of the repressor RstR, unlike SW1."
+      }
+    }
+  }
+}

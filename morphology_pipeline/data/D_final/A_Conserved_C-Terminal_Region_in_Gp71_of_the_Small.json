@@ -1,0 +1,123 @@
+{
+  "title": "A Conserved C-Terminal Region in Gp71 of the Small Isometric-Head Phage LL-H and ORF474 of the Prolate-Head Phage JCL1032 Is Implicated in Specificity of Adsorption of Phage to Its Host, Lactobacillus delbrueckii",
+  "summary": "The paper describes the morphology of three phages: LL-H and LL-S are described as 'small isometric-head' phages, while JCL1032 is described as a 'prolate-head' phage. The study focuses on adsorption mechanisms and host-range mutants of phage LL-H, with several mutants (LL-H-a7, a8, a21, a23, a24, and LL-H(Bes-1)) derived from it, but no additional morphological details are provided for these variants.",
+  "phages": {
+    "LL-H": {
+      "phage_name_or_id": "LL-H",
+      "morphology": "small isometric-head phage",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "genome_size_kb": "",
+      "structural_proteins": "major tail protein (encoded by gene g17), minor tail protein (encoded by gene g71)",
+      "extra": {}
+    },
+    "LL-H(Bes-1)": {
+      "phage_name_or_id": "LL-H(Bes-1)",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (specifically strain Bes-1)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-H-a7": {
+      "phage_name_or_id": "LL-H-a7",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (and strain Ads-5)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-H-a8": {
+      "phage_name_or_id": "LL-H-a8",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (and strain Ads-5)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-H-a21": {
+      "phage_name_or_id": "LL-H-a21",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (and strain Ads-5)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-H-a23": {
+      "phage_name_or_id": "LL-H-a23",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (and strain Ads-5)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-H-a24": {
+      "phage_name_or_id": "LL-H-a24",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808 (and strain Ads-5)",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "LL-S": {
+      "phage_name_or_id": "LL-S",
+      "morphology": "small isometric-head phage",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "JCL1032": {
+      "phage_name_or_id": "JCL1032",
+      "morphology": "prolate-head phage",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

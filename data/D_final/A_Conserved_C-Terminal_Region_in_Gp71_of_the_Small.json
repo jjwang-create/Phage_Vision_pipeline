@@ -1,0 +1,106 @@
+{
+  "title": "A Conserved C-Terminal Region in Gp71 of the Small Isometric-Head Phage LL-H and ORF474 of the Prolate-Head Phage JCL1032 Is Implicated in Specificity of Adsorption of Phage to Its Host, Lactobacillus delbrueckii",
+  "summary": "The paper discusses several phages (LL-H, LL-S, JCL1032) and their host-range mutants (LL-H-a7, LL-H-a8, LL-H-a21, LL-H-a23, LL-H-a24, LL-H(Bes-1)) infecting Lactobacillus delbrueckii subsp. lactis ATCC 15808. The phages exhibit different adsorption specificities and mutations in tail protein genes affecting host range. Phage LL-H and LL-S are closely related, while JCL1032 is a prolate-head, possibly temperate phage.",
+  "phages": {
+    "phage LL-H": {
+      "phage_name_or_id": "phage LL-H",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H(Bes-1)": {
+      "phage_name_or_id": "phage LL-H(Bes-1)",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H-a7": {
+      "phage_name_or_id": "phage LL-H-a7",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H-a8": {
+      "phage_name_or_id": "phage LL-H-a8",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H-a21": {
+      "phage_name_or_id": "phage LL-H-a21",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H-a23": {
+      "phage_name_or_id": "phage LL-H-a23",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-H-a24": {
+      "phage_name_or_id": "phage LL-H-a24",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    },
+    "phage LL-S": {
+      "phage_name_or_id": "phage LL-S",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "small isometric-head",
+      "receptor": "determined by the C-terminal portion of the protein encoded by g71",
+      "structural_proteins": "genes g17 (major tail protein), g71 (minor tail protein)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "similarity_percent": "closely related to LL-H, differing in only three nucleotide positions in g71 homolog",
+      "extra": {}
+    },
+    "phage JCL1032": {
+      "phage_name_or_id": "phage JCL1032",
+      "host_bacterium": "Lactobacillus delbrueckii subsp. lactis ATCC 15808",
+      "host_range": "L. delbrueckii subsp. lactis ATCC 15808",
+      "morphology": "prolate-head, possibly temperate",
+      "receptor": "determined by the C-terminal portion of the protein encoded by ORF474",
+      "structural_proteins": "ORF474 (homolog of g71)",
+      "growth_medium": "MRS broth supplemented with 10 mM CaCl2",
+      "incubation_temperature_C": "37",
+      "extra": {}
+    }
+  }
+}

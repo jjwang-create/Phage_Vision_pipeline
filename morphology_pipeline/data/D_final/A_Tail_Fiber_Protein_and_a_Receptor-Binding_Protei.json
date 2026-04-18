@@ -1,0 +1,91 @@
+{
+  "title": "A Tail Fiber Protein and a Receptor-Binding Protein Mediate ICP2 Bacteriophage Interactions with Vibrio cholerae OmpU",
+  "summary": "The paper focuses on ICP2, a virulent bacteriophage that infects Vibrio cholerae. ICP2 is morphologically categorized as a short-tailed podovirus (Podoviridae family). Its genome is approximately 50 kb, and it encodes structural proteins including putative tail fibers (Gp25, Gp24, Gp14) and a receptor-binding adhesin (Gp23). Other phages (T7, T4, λ, ΦX174) are mentioned only as comparative references in homology analyses or structural discussions, with no morphological details provided for them in this text.",
+  "phages": {
+    "ICP2": {
+      "phage_name_or_id": "ICP2",
+      "morphology": "short-tailed podovirus",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "clear, normal-size plaques",
+      "host_bacterium": "Vibrio cholerae",
+      "genome_size_kb": "50",
+      "structural_proteins": "putative tail fiber gene gp25, putative adhesin gene gp23, putative tail fiber gp24, tail fiber homology gp14, tail tube proteins Gp9, Gp10, Gp11",
+      "extra": {
+        "family": "Podoviridae",
+        "genetic_homology": "bears little genetic homology to the canonical podovirus T7 or other members of the family",
+        "genome_organization": "73 putative protein-coding sequences divided into two transcriptional units in opposite orientations",
+        "receptor": "OmpU (outer membrane porin protein)",
+        "tail_fiber_structure_speculation": "Gp25 contains putative collagen-like domains that likely form a triple helical structure, similar to many other phage tail fibers. Gp25 has a tail tube attachment domain with homology to several other podoviruses. Gp24 has regions very similar to P5 of T4 Gp34 and T4 Gp36. Gp23 has structural and functional homology to T-even adhesins that modulate receptor specificity, such as S16 Gp38 and T4 Gp37 and Gp38, suggesting it is the receptor-binding protein (RBP) for ICP2.",
+        "figure_caption": "FIG 1 Locations of mutated amino acid residues in the OmpU structure that give rise to ICP2 resistance. OmpU mutations previously shown to confer ICP2 resistance (8) map to extracellular loops L4 and L8 on the structure solved by Li et al. (16). The OmpU porin is a homotrimer of three β-barrels. Mutations are highlighted on two adjacent monomers to emphasize their proximity. *, the A195T mutation confers only partial resistance to ICP2 (8). This image does not show how these mutations may affect OmpU structure."
+      }
+    },
+    "ICP2_2013_A_Haiti": {
+      "phage_name_or_id": "ICP2_2013_A_Haiti",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "T7": {
+      "phage_name_or_id": "T7",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "T4": {
+      "phage_name_or_id": "T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "λ": {
+      "phage_name_or_id": "λ",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "ΦX174": {
+      "phage_name_or_id": "ΦX174",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

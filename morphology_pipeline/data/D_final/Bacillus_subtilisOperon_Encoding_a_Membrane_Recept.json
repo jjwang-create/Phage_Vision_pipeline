@@ -1,0 +1,19 @@
+{
+  "title": "Bacillus subtilis Operon Encoding a Membrane Receptor for Bacteriophage SPP1",
+  "summary": "The paper identifies the yueB gene as essential for irreversible adsorption of bacteriophage SPP1 to Bacillus subtilis. It describes genetic complementation and disruption experiments, plaque size variations in mutants, and modulation of adsorption rates via inducible promoters. No morphological or structural details (capsid size, tail dimensions, family) for SPP1 are provided in the text.",
+  "phages": {
+    "bacteriophage SPP1": {
+      "phage_name_or_id": "bacteriophage SPP1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "normal efficiency of plating and SPP1 plaque morphology; smaller plaques produced under repressed conditions or in yukE mutant strains",
+      "host_bacterium": "Bacillus subtilis",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "A Mutation within the β Subunit of Escherichia coli RNA Polymerase Impairs Transcription from Bacteriophage T4 Middle Promoters",
+  "summary": "The paper discusses bacteriophage T4 and its mutants, focusing on their interactions with E. coli host RNA polymerase, particularly the effects of mutations in the host's rpoB gene on phage growth and transcription.",
+  "phages": {
+    "bacteriophage T4": {
+      "phage_name_or_id": "bacteriophage T4",
+      "host_bacterium": "Escherichia coli",
+      "life_cycle_type": "usurps the host transcriptional machinery",
+      "extra": {
+        "transcriptional_activator": "MotA",
+        "coactivator": "AsiA",
+        "interaction_with_host": "σ 70, the specificity subunit of RNA polymerase"
+      }
+    },
+    "T4 motA (Am)": {
+      "phage_name_or_id": "T4 motA (Am)",
+      "host_bacterium": "Escherichia coli",
+      "extra": {
+        "growth_phenotype": "grows poorly in wild-type E. coli",
+        "restricted_growth": "does not grow in the E. coli mutant strain TabG",
+        "mutation_effect": "G1249D mutation in host rpoB restricts growth"
+      }
+    },
+    "T4 motA (Ts) mutant ts G1": {
+      "phage_name_or_id": "T4 motA (Ts) mutant ts G1",
+      "host_bacterium": "Escherichia coli",
+      "extra": {
+        "growth_restriction": "restricted growth in E. coli B strain TabG at nonpermissive temperature"
+      }
+    },
+    "T4 asiA (Am), am S22": {
+      "phage_name_or_id": "T4 asiA (Am), am S22",
+      "host_bacterium": "Escherichia coli",
+      "extra": {
+        "growth_phenotype": "produces small plaques on wild-type E. coli",
+        "restricted_growth": "no detectable plaques on E. coli mutant strains TabG and B11",
+        "mutation_effect": "G1249D mutation in host rpoB restricts growth"
+      }
+    }
+  }
+}

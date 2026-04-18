@@ -1,0 +1,16 @@
+{
+  "title": "Bacillus subtilis Operon Encoding a Membrane Receptor for Bacteriophage SPP1",
+  "summary": "Bacteriophage SPP1 irreversibly binds to Bacillus subtilis via the membrane protein YueB, which is part of the yukE operon. The phage's adsorption rate can be modulated by YueB levels, and disruption of operon genes affects plaque morphology without altering adsorption rates.",
+  "phages": {
+    "Bacteriophage SPP1": {
+      "phage_name_or_id": "Bacteriophage SPP1",
+      "host_bacterium": "Bacillus subtilis",
+      "receptor": "YueB",
+      "extra": {
+        "irreversible_adsorption": "mediated by YueB",
+        "plaque_size_variation": "affected by yukE operon disruption",
+        "adsorption_modulation": "correlated with YueB levels"
+      }
+    }
+  }
+}

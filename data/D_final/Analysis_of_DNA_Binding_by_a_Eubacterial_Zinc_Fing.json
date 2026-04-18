@@ -1,0 +1,22 @@
+{
+  "title": "Analysis of DNA Binding by a Eubacterial Zinc Finger Transcription Factor",
+  "summary": "The paper discusses the structural and functional homology of the Serratia marcescens NucC protein to the P2 Ogr family of eubacterial zinc finger transcription factors, which are required for late gene expression in P2- and P4-related bacteriophages. The study focuses on the interactions of NucC with the P2 FETUD late operon promoter and compares NucC to related proteins from phages PSP3 and φR73.",
+  "phages": {
+    "P2": {
+      "phage_name_or_id": "P2",
+      "extra": {}
+    },
+    "P4": {
+      "phage_name_or_id": "P4",
+      "extra": {}
+    },
+    "PSP3": {
+      "phage_name_or_id": "PSP3",
+      "extra": {}
+    },
+    "φR73": {
+      "phage_name_or_id": "φR73",
+      "extra": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "A Bacteriophage Capsid Protein Is an Inhibitor of a Conserved Transcription Terminator of Various Bacterial Pathogens",
+  "summary": "Bacteriophage P4's capsid protein Psu inhibits the transcription terminator Rho in various bacterial pathogens, including Gram-negative and Gram-positive species, by obstructing ATPase and translocase activities.",
+  "phages": {
+    "bacteriophage P4": {
+      "phage_name_or_id": "bacteriophage P4",
+      "extra": {
+        "protein_psu_function": "inhibits Rho by obstructing ATPase and translocase activities",
+        "protein_psu_structure": "α-helical protein with a solvent-exposed flexible C-terminal domain (CTD) and an N-terminal domain (NTD)",
+        "protein_psu_binding": "binds with Rho proteins from various bacterial species",
+        "protein_psu_effect": "induces lethality in Mycobacterium and Xanthomonas species by antagonizing Rho"
+      }
+    }
+  }
+}

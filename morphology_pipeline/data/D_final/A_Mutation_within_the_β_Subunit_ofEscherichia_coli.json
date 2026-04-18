@@ -1,0 +1,58 @@
+{
+  "title": "A Mutation within the β Subunit of Escherichia coli RNA Polymerase Impairs Transcription from Bacteriophage T4 Middle Promoters",
+  "summary": "The paper focuses on transcriptional regulation mechanisms of bacteriophage T4 and its mutants, with no morphological or structural characterization of the phages provided. The text discusses genetic interactions between T4 mutants and E. coli RNA polymerase mutations, but contains no descriptions of phage morphology, dimensions, structural proteins, or plaque morphology.",
+  "phages": {
+    "Escherichia phage T4": {
+      "phage_name_or_id": "Escherichia phage T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "Escherichia phage T4 motA (Am)": {
+      "phage_name_or_id": "Escherichia phage T4 motA (Am)",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "Escherichia phage T4 motA (Ts) ts G1": {
+      "phage_name_or_id": "Escherichia phage T4 motA (Ts) ts G1",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "Escherichia phage T4 asiA (Am) am S22": {
+      "phage_name_or_id": "Escherichia phage T4 asiA (Am) am S22",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

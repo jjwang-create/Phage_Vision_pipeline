@@ -1,0 +1,1430 @@
+[
+  {
+    "ok": true,
+    "paper_id": "ABacteriophageCapsid_Protein_Is_an_Inhibitor_of_a_",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains ZERO morphological or structural descriptions of bacteriophage P4 (capsid shape, dimensions, tail type, plaque appearance). The extraction correctly reflects this absence by leaving morphology fields empty."
+      ],
+      "missing_but_expected": {
+        "bacteriophage P4": [
+          "No morphological traits were expected because the text does not describe phage structure, dimensions, or plaque morphology. The paper is purely biochemical, focusing on the protein Psu's function."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"The ORIGINAL_TEXT contains ZERO morphological or structural descriptions of bacteriophage P4 (capsid shape, dimensions, tail type, plaque appearance). The extraction correctly reflects this absence by leaving morphology fields empty.\"],\n  \"missing",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "APhageProtein_Confers_Resistance_to_the_Lactococca",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data was present in the original text to extract. The extraction correctly left all morphology fields empty."
+      ],
+      "missing_but_expected": {
+        "bIL66M1": [],
+        "bIL170": []
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data was present in the original text to extract. The extraction correctly left all morphology fields empty.\"],\n  \"missing_but_expected\": {\n    \"bIL66M1\": [],\n    \"bIL170\": []\n  },\n  \"incorrect_or_unsupported\": {}\n}\n```",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_1_Ribosomal_Frameshift_in_the_Transcript_That_En",
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.5,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains NO morphological data (capsid/tail dimensions, shape, plaque appearance) for any phage. The paper is a molecular biology study of a ribosomal frameshift mechanism. The extraction correctly identifies the absence of such data and does not invent any."
+      ],
+      "missing_but_expected": {
+        "Lactobacillus bacteriophage A2": [
+          "No morphological data (Family, capsid shape, tail type, dimensions, plaque morphology) is present in the text to extract."
+        ],
+        "phage T7": [
+          "No morphological data is present in the text to extract."
+        ],
+        "phage lambda": [
+          "No morphological data is present in the text to extract."
+        ],
+        "phage T4": [
+          "No morphological data is present in the text to extract."
+        ],
+        "Listeria phage PSA": [
+          "No morphological data is present in the text to extract."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 0\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"The ORIGINAL_TEXT contains NO morphological data (capsid/tail dimensions, shape, plaque appearance) for any phage. The paper is a molecular biology stud",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.2
+    ],
+    "sample_overall_std": 0.1,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Conserved_Acetyl_Esterase_Domain_Targets_Diverse",
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "attribution_correctness": 7.0,
+      "schema_compliance": 6.0,
+      "hallucination_and_noise_control": 5.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 7
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 6
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 5
+        }
+      ],
+      "major_issues": [
+        "Schema includes many non-target phages (e.g., T7, SP6, Det7) as primary entries, diluting focus on the seven Vi phages. This violates the extraction spec which expects phage IDs to be the primary keys.",
+        "Significant morphological detail for Vi phage I is captured, but key structural descriptions for Podoviridae members (III-VII) are incomplete. The text describes 'short tails and an associated electron-dense structure that extends into the capsid' and 'central tail-portal structure' for all Podoviridae, but these are missing from the extracted JSON.",
+        "The JSON includes extensive genomic and protein similarity data in the 'extra' fields, which, while not penalized for omission, adds noise and shifts focus away from core morphological characterization."
+      ],
+      "missing_but_expected": {
+        "Vi phage I": [],
+        "Vi phage III": [
+          "description of short tail and electron-dense tail-portal structure common to Podoviridae"
+        ],
+        "Vi phage IV": [
+          "description of short tail and electron-dense tail-portal structure common to Podoviridae"
+        ],
+        "Vi phage V": [
+          "description of short tail and electron-dense tail-portal structure common to Podoviridae"
+        ],
+        "Vi phage VI": [
+          "description of short tail and electron-dense tail-portal structure common to Podoviridae; the text explicitly states 'arrangement of six minor fine tail fibers' for Vi phage VI, which is only partially captured in extra"
+        ],
+        "Vi phage VII": [
+          "description of short tail and electron-dense tail-portal structure common to Podoviridae"
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Vi phage I": {
+          "field": "capsid_size",
+          "extracted_value": "~88 nm from apex to tail joint and ~90-nm width",
+          "correct": "~88 nm from apex to tail joint and ~90-nm width",
+          "evidence": "Figure 1a shows that Vi phage I possesses an isometric icosahedron-shaped head, with a dimension of ∼88 nm from apex to tail joint and ∼90-nm width.",
+          "note": "Value is correct and verbatim. However, the field name 'capsid_size' is ambiguous; the spec may expect separate fields for dimensions. This is a schema compliance issue, not a fidelity error."
+        },
+        "Vi phage VI": {
+          "field": "extra.tail_structure",
+          "extracted_value": "arrangement of six minor fine tail fibers seen in electron micrograph",
+          "correct": "arrangement of six minor fine tail fibers seen in the electron micrograph for Vi phage VI (Fig. 1c ) is likely to possess the tail spike protein required for receptor recognition.",
+          "evidence": "Based upon the arrangement previously described in structural studies of T7 and K1E phage ( 20 ), the arrangement of six minor fine tail fibers seen in the electron micrograph for Vi phage VI (Fig. 1c ) is likely to possess the tail spike protein required for receptor recognition.",
+          "note": "The extraction is mostly correct but omits the functional context ('likely to possess the tail spike protein'). This is a minor omission of detail."
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 7\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 6\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 5\n    }\n  ],\n  \"major_issues\": [\n    \"Schema includes many non-target phages (e.g., T7, SP6, Det7) as primary entries, diluting focus on the seven Vi phages. This violates the extraction spec wh",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      7.0,
+      7.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Conserved_C-Terminal_Region_in_Gp71_of_the_Small",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 3.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 8.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 9.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 3
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 9
+        }
+      ],
+      "major_issues": [
+        "The extraction correctly identifies the primary morphological descriptors ('small isometric-head' and 'prolate-head') for the main phages but fails to capture the explicit morphological classification of LL-S as a 'small isometric-head phage' in the JSON. The summary mentions it, but the JSON entry for LL-S has an empty 'morphology' field. No numerical dimensions (nm) are provided in the text, so their absence is not penalized."
+      ],
+      "missing_but_expected": {
+        "LL-S": [
+          "morphology: 'small isometric-head phage' (explicitly stated in text)"
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "LL-H": {
+          "field": "structural_proteins",
+          "correct": "major tail protein (encoded by gene g17), minor tail protein (encoded by gene g71)",
+          "evidence": "The text states: 'At least nine structural proteins have been identified in LL-H ( 19 ). Genes g17 (480 bp), encoding the major tail protein, and g71 (1,968 bp), coding for a putative minor tail component...' This is correctly extracted and attributed."
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 3},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 8},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 9}\n  ],\n  \"major_issues\": [\n    \"The extraction correctly identifies the primary morphological descriptors ('small isometric-head' and 'prolate-head') for the main phages but fails to capture the explicit morphological classification of LL-S as a 'small isometric-head phage' i",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Genomewide_Mutagenesis_ScreenIdentifiesMultiple_",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data was present in the ORIGINAL_TEXT to extract. The extraction correctly reflects the absence of this information."
+      ],
+      "missing_but_expected": {
+        "ViII bacteriophage": [
+          "No morphological data was described in the text."
+        ],
+        "ViI": [
+          "No morphological data was described in the text."
+        ],
+        "ViIII": [
+          "No morphological data was described in the text."
+        ],
+        "ViIV": [
+          "No morphological data was described in the text."
+        ],
+        "ViV": [
+          "No morphological data was described in the text."
+        ],
+        "ViVI": [
+          "No morphological data was described in the text."
+        ],
+        "ViVII": [
+          "No morphological data was described in the text."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"No morphological data was present in the ORIGINAL_TEXT to extract. The extraction correctly reflects the absence of this information.\"\n  ],\n  \"missing_",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Mutation_within_the_β_Subunit_ofEscherichia_coli",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data present in ORIGINAL_TEXT. The extraction correctly identifies this absence and leaves all morphological fields empty."
+      ],
+      "missing_but_expected": {
+        "Escherichia phage T4": [
+          "No morphological data in text"
+        ],
+        "Escherichia phage T4 motA (Am)": [
+          "No morphological data in text"
+        ],
+        "Escherichia phage T4 motA (Ts) ts G1": [
+          "No morphological data in text"
+        ],
+        "Escherichia phage T4 asiA (Am) am S22": [
+          "No morphological data in text"
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data present in ORIGINAL_TEXT. The extraction correctly identifies this absence and leaves all morphological fields empty.\"],\n  \"missing_but_expected\": {\n    \"Escherichia phage T4\": [\"No morphological data in text\"],\n    \"Escheri",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Novel_FilamentousPhagefrom_the_Deep-Sea_Bacteriu",
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 2.5,
+      "value_fidelity_verbatim": 8.0,
+      "attribution_correctness": 6.5,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 6.5
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 3
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 7
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 9
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 8
+        }
+      ],
+      "major_issues": [
+        "Major omission: No quantitative dimensions (nm) for the filamentous particle were extracted from the text, despite being a core morphological feature. The extraction only captured the qualitative description 'filamentous particle'.",
+        "Unnecessary entries: Created separate entries for M13, fs-2, and CTXφ despite the text stating they are only mentioned as comparative references without morphological details. This adds noise and violates the principle of only extracting phages with explicit morphological characterization in the text."
+      ],
+      "missing_but_expected": {
+        "SW1": [
+          "Quantitative dimensions (e.g., length, width in nm) for the filamentous virion. The text describes examination via electron microscopy (Fig.2) but the extracted JSON lacks any numerical measurements.",
+          "Plaque morphology details from the host range assay (e.g., plaque appearance on WP2)."
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "M13": {
+          "field": "structural_proteins",
+          "correct": "M13 is mentioned only as a reference for genomic organization; no explicit structural proteins for M13 are listed in the text.",
+          "evidence": "The text states: 'They are of the same size and in the same relative positions as gVII, gIX, gVIII, gIII, and gVI of the capsid structural module of theEscherichia coliM13 phage (8), respectively, although with low sequence similarities...' This describes SW1's proteins by analogy to M13's known module, not as an extraction of M13's own proteins."
+        },
+        "fs-2": {
+          "field": "phage_name_or_id entry",
+          "correct": "No entry should exist for fs-2 as it is mentioned only in a comparative thermal stability context with no morphological details provided.",
+          "evidence": "'This temperature is 10°C lower than that inhibiting many other filamentous phages, such as fs-2 (4).'"
+        },
+        "CTXφ": {
+          "field": "phage_name_or_id entry",
+          "correct": "No entry should exist for CTXφ as it is mentioned only in a comparative regulatory context with no morphological details provided.",
+          "evidence": "'This suggests that government of phage SW1 production may be different from that of CTXφ, for which phage production depends on the inactivation of the repressor RstR (5).'"
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 3\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 7\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 8\n    }\n  ],\n  \"major_issues\": [\n    \"Major omission: No quantitative dimensions (nm) for the filamentous particle were extracted from the text, despite being a core morphological feature. The e",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      7.0,
+      5.6
+    ],
+    "sample_overall_std": 0.7,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Possible_Heterodimeric_Prophage-Like_Element_in_",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data was present in the original text to extract. The text discusses genomic/prophage elements without any physical structure descriptions."
+      ],
+      "missing_but_expected": {
+        "pSOG3": [
+          "No morphological traits expected - text contains no physical descriptions of capsid, tail, dimensions, or plaque morphology"
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data was present in the original text to extract. The text discusses genomic/prophage elements without any physical structure descriptions.\"],\n  \"missing_but_expected\": {\n    \"pSOG3\": [\"No morphological traits expected - text con",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Self-Splicing_Group_I_Intron_in_DNA_Polymerase_G",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data was present in the original text, so empty morphology fields are correct and complete."
+      ],
+      "missing_but_expected": {
+        "ΦI": [],
+        "W31": [],
+        "T4": [],
+        "T7": []
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data was present in the original text, so empty morphology fields are correct and complete.\"],\n  \"missing_but_expected\": {\n    \"ΦI\": [],\n    \"W31\": [],\n    \"T4\": [],\n    \"T7\": []\n  },\n  \"incorrect_or_unsupported\": {}\n}\n```",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Study_of_the_CopF_Repressor_of_Plasmid_pAMβ1_byP",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data was present in the original text to extract. The study is about a protein-DNA interaction assay using phage display, not the physical characterization of a phage."
+      ],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data was present in the original text to extract. The study is about a protein-DNA interaction assay using phage display, not the physical characterization of a phage.\"],\n  \"missing_but_expected\": {},\n  \"incorrect_or_unsupported\": {}\n}",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Tail_Fiber_Protein_and_a_Receptor-Binding_Protei",
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 6.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 9.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 9
+        }
+      ],
+      "major_issues": [
+        "The extraction is missing the explicit morphological classification 'short-tailed podovirus' for the primary phage entry 'ICP2_2013_A_Haiti', which is a direct synonym for ICP2 used in the text. The main 'ICP2' entry correctly has this, but the specific isolate entry does not.",
+        "The extraction includes several phage entries (T7, T4, λ, ΦX174) for which the text provides NO morphological details. Their inclusion with empty fields, while not penalized for omission, adds unnecessary noise and could be considered a minor hallucination as they are not the focus of the paper's morphological characterization."
+      ],
+      "missing_but_expected": {
+        "ICP2_2013_A_Haiti": [
+          "morphology: 'short-tailed podovirus' (implied as it is an isolate of ICP2)"
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "T7": {
+          "field": "presence in JSON",
+          "correct": "Should not have a dedicated entry as no morphological data is provided.",
+          "evidence": "Text only mentions T7 in passing for genetic homology: 'bears little genetic homology to the canonical podovirus T7'."
+        },
+        "T4": {
+          "field": "presence in JSON",
+          "correct": "Should not have a dedicated entry as no morphological data is provided.",
+          "evidence": "T4 is mentioned only in speculative homology analysis of ICP2's Gp23 and Gp24 proteins."
+        },
+        "λ": {
+          "field": "presence in JSON",
+          "correct": "Should not have a dedicated entry as it is not mentioned in the text.",
+          "evidence": "The phage 'λ' is not mentioned in the provided ORIGINAL_TEXT."
+        },
+        "ΦX174": {
+          "field": "presence in JSON",
+          "correct": "Should not have a dedicated entry as it is not mentioned in the text.",
+          "evidence": "The phage 'ΦX174' is not mentioned in the provided ORIGINAL_TEXT."
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 6},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 9}\n  ],\n  \"major_issues\": [\n    \"The extraction is missing the explicit morphological classification 'short-tailed podovirus' for the primary phage entry 'ICP2_2013_A_Haiti', which is a direct synonym for ICP2 used in the text. The main 'ICP2' entry correctly has this, but th",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      9.0,
+      9.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "AbortivePhageResistance_Mechanism_AbiZ_Speeds_the_",
+    "overall_score": 8.2,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 1.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 1
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains NO morphological descriptions (capsid shape, tail type, dimensions in nm) for any phage. The paper is focused on phage resistance mechanisms, plaque size reductions, and EOP measurements. The extraction correctly reflects this absence of morphological data."
+      ],
+      "missing_but_expected": {
+        "φ31": [
+          "No morphological data (Family, capsid shape, tail type, dimensions) is present in the text."
+        ],
+        "φ31.1": [
+          "No morphological data is present in the text."
+        ],
+        "φ31.2": [
+          "No morphological data is present in the text."
+        ],
+        "ul36": [
+          "No morphological data is present in the text."
+        ],
+        "ul37": [
+          "No morphological data is present in the text."
+        ],
+        "sk1": [
+          "No morphological data is present in the text."
+        ],
+        "p2": [
+          "No morphological data is present in the text."
+        ],
+        "c2": [
+          "No morphological data is present in the text."
+        ],
+        "Q30": [
+          "No morphological data is present in the text."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 1},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"The ORIGINAL_TEXT contains NO morphological descriptions (capsid shape, tail type, dimensions in nm) for any phage. The paper is focused on phage resistance mechanisms, plaque size reductions, and EOP measurements. The extraction correctly reflect",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.2,
+      8.2
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Abortive_Infection_Mechanisms_and_Prophage_Sequenc",
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 8.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The extraction correctly captures all key morphological traits (capsid shape, tail type, baseplate structure, tail length) with verbatim values. The only minor omission is the explicit mention of the phage group (P335) for φsmq86 in its morphology field, though it is noted in the summary."
+      ],
+      "missing_but_expected": {
+        "φsmq86": [
+          "Explicit mention of belonging to the P335 group in the morphology field (though stated in text). This is a minor omission."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"The extraction correctly captures all key morphological traits (capsid shape, tail type, baseplate structure, tail length) with verbatim values. The only",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      9.4,
+      9.4
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Amino_Acid_Residues_in_the_GIY-YIG_Endonuclease_II",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains ZERO morphological information about phage T4 virion structure (capsid, tail, dimensions, plaque morphology). The paper is exclusively about the biochemical properties of a specific enzyme (EndoII). The extraction correctly identified the absence of such data and left fields blank."
+      ],
+      "missing_but_expected": {
+        "Phage T4": [
+          "No morphological data was present in the text to extract. This is not an omission by the extractor."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"The ORIGINAL_TEXT contains ZERO morphological information about phage T4 virion structure (capsid, tail, dimensions, plaque morphology). The paper is exclusively about the biochemical properties of a specific enzyme (EndoII). The extraction correc",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_Active_Type_IV_Secretion_System_Encoded_by_the_",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains NO morphological characterization of bacteriophages M13 or M13K07. The paper focuses on the physiological effects of phage infection and F plasmid systems on bacterial sensitivity to bile salts, not on phage structure, dimensions, or plaque morphology. The extraction correctly identifies the absence of such data."
+      ],
+      "missing_but_expected": {
+        "M13": [
+          "No morphological data (family, capsid shape, tail type, dimensions) is present in the text to extract."
+        ],
+        "M13K07": [
+          "No morphological data (family, capsid shape, tail type, dimensions) is present in the text to extract."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"The ORIGINAL_TEXT contains NO morphological characterization of bacteriophages M13 or M13K07. The paper focuses on the physiological effects of phage infection and F plasmid systems on bacterial sensitivity to bile salts, not on phage structure, d",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_Enterotoxin-Bearing_Pathogenicity_Island_inStap",
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 8.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The extraction is missing the explicit description of the tail as 'long' from the figure caption, which is a key morphological detail. The summary also incorrectly states 'flexible banded tails' as the primary description, while the main text uses 'flexible banded tails, and end plates' and the caption uses 'long, banded tails and end plates'. The primary morphological fields should reflect the main text description."
+      ],
+      "missing_but_expected": {
+        "φ909": [
+          "The tail description 'long' from the figure caption is not captured in the primary 'morphology' or 'tail_description' fields. The main text's 'flexible banded tails, and end plates' is present in 'extra', but the primary 'morphology' field should be the verbatim main text description."
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "φ909": {
+          "field": "morphology",
+          "extracted_value": "symmetrical icosahedral heads, flexible banded tails, and end plates",
+          "correct": "symmetrical icosahedral heads (diameter, approximately 60 nm), flexible banded tails, and end plates",
+          "evidence": "Purified phage particles studied by transmission electron microscopy revealed symmetrical icosahedral heads (diameter, approximately 60 nm), flexible banded tails, and end plates ( Fig. 4 B)."
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 8},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\n    \"The extraction is missing the explicit description of the tail as 'long' from the figure caption, which is a key morphological detail. The summary also incorrectly states 'flexible banded tails' as the primary description, while the main text",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      9.6,
+      9.6
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_RNA_Hairpin_Sequesters_the_Ribosome_Binding_Sit",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data present in original text; extraction correctly contains no phage entries."
+      ],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data present in original text; extraction correctly contains no phage entries.\"],\n  \"missing_but_expected\": {},\n  \"incorrect_or_unsupported\": {}\n}\n```",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Analysis_of_DNA_Binding_by_a_Eubacterial_Zinc_Fing",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains ZERO morphological information about any bacteriophage. The paper is exclusively about the DNA-binding protein NucC and its interactions with phage promoters. The extracted JSON correctly reflects this absence of morphological data by leaving all morphology fields empty."
+      ],
+      "missing_but_expected": {
+        "PSP3": [
+          "No morphological data present in text."
+        ],
+        "φR73": [
+          "No morphological data present in text."
+        ],
+        "P2": [
+          "No morphological data present in text."
+        ],
+        "P4": [
+          "No morphological data present in text."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 0\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"The ORIGINAL_TEXT contains ZERO morphological information about any bacteriophage. The paper is exclusively about the DNA-binding protein NucC and its i",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Analysis_of_Early_Promoters_of_theBacillusBacterio",
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 9.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No morphological data present in ORIGINAL_TEXT. The extraction correctly identifies this absence and leaves morphological fields empty."
+      ],
+      "missing_but_expected": {
+        "Bacteriophage GA-1": [
+          "No morphological data in text"
+        ],
+        "phage GA-1": [
+          "No morphological data in text"
+        ],
+        "phage φ29": [
+          "No morphological data in text"
+        ],
+        "φ29": [
+          "No morphological data in text"
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No morphological data present in ORIGINAL_TEXT. The extraction correctly identifies this absence and leaves morphological fields empty.\"],\n  \"missing_but_expected\": {\n    \"Bacteriophage GA-1\": [\"No morphological data in text\"],\n    \"phage GA-1\": ",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      10.0,
+      9.6
+    ],
+    "sample_overall_std": 0.2,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Anatomy_of_a_LactococcalPhageTail",
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "attribution_correctness": 9.5,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 9.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 9
+        }
+      ],
+      "major_issues": [
+        "The extraction is missing the explicit head diameter measurement for Tuc2009, which is stated to be comparable to λ but not given a specific value. The text provides mean measurements for Tuc2009 that are 'strikingly similar' to λ, but the specific head diameter value is omitted from the JSON.",
+        "The 'virion_diameter_nm' field for Tuc2009 is incorrectly populated with a descriptive phrase ('head diameter comparable to λ (mean measurements taken)') instead of a verbatim measurement or left blank. This violates strict value fidelity.",
+        "Several phages (e.g., ul36, LC3, r1t, bIL285, etc.) are included with minimal or no morphological data, primarily containing genomic classification. While not penalized for omission, their inclusion with empty morphology fields highlights a focus on genomic context over physical structure for these entries."
+      ],
+      "missing_but_expected": {
+        "Tuc2009": [
+          "Specific head diameter measurement (in nm). The text states 'mean measurements taken from multiple individual Tuc2009 virions display striking similarities to those reported for λ with respect to head diameter' but does not provide the Tuc2009 value.",
+          "Explicit mention of the 'central channel' diameter for the tail tube (implied but not quantified).",
+          "Quantification of the '34 ± 1' disks in the tail shaft is placed in 'extra', which is acceptable, but the '± 1' is a critical part of the measurement."
+        ],
+        "λ": [
+          "Specific head diameter measurement (in nm) for λ, which is used as the basis for comparison with Tuc2009."
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Tuc2009": {
+          "field": "virion_diameter_nm",
+          "extracted_value": "head diameter comparable to λ (mean measurements taken)",
+          "correct": "[Value not explicitly stated in provided text]",
+          "evidence": "The text states 'mean measurements taken from multiple individual Tuc2009 virions display striking similarities to those reported for λ with respect to head diameter, tail length, and tail diameter' but does not provide the numerical value for Tuc2009's head diameter."
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"morphology_coverage_completeness\", \"score\": 8},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 9},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 9}\n  ],\n  \"major_issues\": [\n    \"The extraction is missing the explicit head diameter measurement for Tuc2009, which is stated to be comparable to λ but not given a specific value. The text provides mean measurements for Tuc2009 that are 'strikingly similar' to λ, but the spec",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      9.2,
+      9.0
+    ],
+    "sample_overall_std": 0.1,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Bacillus_subtilisOperon_Encoding_a_Membrane_Recept",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 0.0,
+      "value_fidelity_verbatim": 10.0,
+      "attribution_correctness": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "The ORIGINAL_TEXT contains ZERO morphological or structural details about bacteriophage SPP1 (no capsid shape, tail type, dimensions, or family). The EXTRACTED_JSON correctly reflects this absence by leaving morphology fields empty. Therefore, no morphological data was omitted or incorrectly extracted."
+      ],
+      "missing_but_expected": {
+        "bacteriophage SPP1": [
+          "No morphological data was present in the text to extract. The paper is focused on genetics and receptor identification, not virion structure."
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 0\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"The ORIGINAL_TEXT contains ZERO morphological or structural details about bacteriophage SPP1 (no capsid shape, tail type, dimensions, or family). The EX",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      8.0,
+      8.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Bacteriophageand_Phenotypic_Variation_inPseudomona",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "morphology_coverage_completeness": 2.0,
+      "value_fidelity_verbatim": 9.0,
+      "attribution_correctness": 9.5,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 9.5
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "morphology_coverage_completeness",
+          "score": 2
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 9
+        }
+      ],
+      "major_issues": [
+        "The extraction is severely incomplete for morphological characterization. The text contains specific physical measurements (e.g., '12-nm-diameter gold particles' used for immunogold labeling) and structural descriptions (e.g., 'filaments', 'interwoven') that are not captured as quantitative virion dimensions. The 'morphology' field is populated with generic terms ('filamentous phage') but lacks the detailed structural data required for phage morphology evaluation."
+      ],
+      "missing_but_expected": {
+        "Pf4": [
+          "Virion diameter (nm) - The text provides '12-nm-diameter gold particles' used to label the phage, but the phage's own filament diameter is not explicitly stated, which is a key omission for a morphology-focused evaluation.",
+          "Capsid shape/size - Not described for filamentous phages.",
+          "Tail dimensions - Not applicable/described for filamentous phages.",
+          "Quantitative plaque morphology (e.g., plaque size) - Only qualitative description ('capable of forming plaques') is extracted."
+        ],
+        "Pf1": [
+          "All morphological dimensions - The text only references Pf1 as a related phage; no physical descriptors are provided for Pf1 itself."
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Pf4": {
+          "field": "genome_size_kb",
+          "extracted_value": "12-kb RF band",
+          "correct": "12,437-bp viral genome",
+          "evidence": "The sequences predict a 12,437-bp viral genome, based on analysis of the published genome sequence of P. aeruginosa"
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"morphology_coverage_completeness\",\n      \"score\": 2\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 9\n    }\n  ],\n  \"major_issues\": [\n    \"The extraction is severely incomplete for morphological characterization. The text contains specific physical measurements (e.g., '12-nm-diameter gold part",
+    "successful_samples": 2,
+    "requested_samples": 2,
+    "sample_overall_scores": [
+      7.6,
+      8.4
+    ],
+    "sample_overall_std": 0.4,
+    "has_d_final_output": true
+  }
+]

@@ -1,0 +1,2413 @@
+[
+  {
+    "ok": true,
+    "paper_id": "ABacteriophageCapsid_Protein_Is_an_Inhibitor_of_a_",
+    "overall_score": 5.1667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 1.0,
+      "field_coverage_completeness": 2.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 3.0,
+      "hallucination_and_noise_control": 8.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10,
+          "penalty_justification": "The extraction specification required extraction of phage-level information. The ORIGINAL_TEXT only contains information about one phage (bacteriophage P4), and it was correctly identified and included in the EXTRACTED_JSON."
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 2,
+          "penalty_justification": "The EXTRACTED_JSON is missing numerous schema-defined fields that are explicitly stated or clearly supported for the phage in the ORIGINAL_TEXT. For example, the phage's host (Escherichia coli) is explicitly stated, and its genome type (dsDNA) is strongly implied by its classification as a bacteriophage and its capsid protein function. These fields are absent."
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8,
+          "penalty_justification": "The extracted 'extra' properties are correctly attributed to bacteriophage P4 with Level 1 or Level 2 support from the text. However, the score is reduced due to the major issue of missing core, attributed fields."
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9,
+          "penalty_justification": "The values provided in the 'extra' field are accurate paraphrases or direct quotes from the text (e.g., 'inhibits Rho by obstructing ATPase and translocase activities' from the ABSTRACT). A point is deducted because 'α-helical protein with a solvent-exposed flexible C-terminal domain (CTD) and an N-terminal domain (NTD)' is a combination of details from separate sentences, though it is contextually correct."
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 3,
+          "penalty_justification": "The output violates schema compliance in a major way. Core, schema-defined fields (e.g., host, genome_type) that are supported by the text are missing. Instead, all information has been placed in an 'extra' object. The 'extra' object contains properties that should be represented as core fields (e.g., protein functions) and mixes multiple distinct facts into single string values."
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10,
+          "penalty_justification": "No hallucinated phages or unsupported factual claims were introduced. All information in the 'extra' field is supported by the ORIGINAL_TEXT."
+        }
+      ],
+      "major_issues": [
+        "Critical failure to populate core, schema-defined fields (e.g., host, genome_type) with information explicitly present or strongly implied in the text, resulting in very poor field coverage.",
+        "All phage information has been incorrectly relegated to an 'extra' object, violating the schema which defines specific fields for standard properties.",
+        "The 'extra' object contains compound strings that merge multiple distinct facts, which is not the intended use of the field."
+      ],
+      "missing_but_expected": {
+        "bacteriophage P4": [
+          {
+            "field": "host",
+            "evidence_type": "quote",
+            "evidence": "Psu is a bacteriophage P4 capsid protein that inhibits Escherichia coli Rho",
+            "expected_value": "Escherichia coli"
+          },
+          {
+            "field": "genome_type",
+            "evidence_type": "quote",
+            "evidence": "Psu (polarity suppression) is an unconventional capsid organizing protein of bacteriophage P4",
+            "expected_value": "dsDNA"
+          },
+          {
+            "field": "family",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "genome_size_kb",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "gene_count",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "gc_content",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "tRNA_count",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "life_cycle",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "isolation_source",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "isolation_location",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "isolation_year",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "depositor",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          {
+            "field": "publication_doi",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10,\n            \"penalty_justification\": \"The extraction specification required extraction of phage-level information. The ORIGINAL_TEXT only contains information about one phage (bacteriophage P4), and it was correctly identified and included in the EXTRACTED_JSON.\"\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 2,\n            \"penalty_justification\": \"The EXTRACTED_JSON is missing numerous schema-defined fields that are explicitly",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      7.0,
+      2.8333,
+      5.1667
+    ],
+    "sample_overall_std": 1.7051,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "APhageProtein_Confers_Resistance_to_the_Lactococca",
+    "overall_score": 9.8333,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 10.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Minor formatting discrepancy in a scalar field value (extra whitespace in frequency value)"
+      ],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {
+        "bIL66M1": {
+          "extra": {
+            "abiP_resistant_variants_frequency": {
+              "extracted_value": "<10 −10",
+              "correct_value": "<10⁻¹⁰",
+              "evidence_type": "quote",
+              "evidence": "No spontaneous AbiP-resistant variant could be obtained at a frequency of <10⁻¹⁰"
+            }
+          }
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 9\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"score",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      9.8333,
+      9.8333,
+      9.8333
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_1_Ribosomal_Frameshift_in_the_Transcript_That_En",
+    "overall_score": 5.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 4.0,
+      "field_coverage_completeness": 3.0,
+      "attribution_correctness": 6.0,
+      "value_fidelity_verbatim": 7.0,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 6.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 5
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 7
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 6
+        }
+      ],
+      "major_issues": [
+        "Missing phage entries for Escherichia phage T3 and phage lambda, which are explicitly discussed in the text.",
+        "Missing required fields (e.g., 'genome_size_kb', 'gene_count', 'tRNA_count') for the primary phage (Lactobacillus bacteriophage A2) despite them being explicitly stated in the text.",
+        "Inclusion of phages (T7, T4, PSA) with minimal or no explicit phage-level properties from the text, creating noise.",
+        "Incorrect attribution of 'growth_medium' and 'incubation_temperature_C' to Lactobacillus bacteriophage A2; these are host propagation conditions, not phage-specific properties."
+      ],
+      "missing_but_expected": {
+        "Lactobacillus bacteriophage A2": [
+          {
+            "field": "genome_size_kb",
+            "evidence_type": "quote",
+            "evidence": "similar G+C content of the genomes of A2, its host L. casei, and E. coli (46% versus 50%)",
+            "expected_value": "46% G+C content"
+          },
+          {
+            "field": "gene_count",
+            "evidence_type": "quote",
+            "evidence": "translation of orf5 and proteolytic processing after residue 123",
+            "expected_value": "orf5"
+          },
+          {
+            "field": "tRNA_count",
+            "evidence_type": "quote",
+            "evidence": "L. casei possesses a tRNALys with the anticodon 3′UUC5′",
+            "expected_value": "tRNALys with anticodon 3′UUC5′"
+          }
+        ],
+        "Escherichia phage T3": [
+          {
+            "field": "phage_name_or_id",
+            "evidence_type": "quote",
+            "evidence": "phage T3, which encodes its coat protein",
+            "expected_value": "Escherichia phage T3"
+          }
+        ],
+        "phage lambda": [
+          {
+            "field": "phage_name_or_id",
+            "evidence_type": "quote",
+            "evidence": "the gene g-t of the tail assembly in phage lambda",
+            "expected_value": "phage lambda"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Lactobacillus bacteriophage A2": [
+          {
+            "field": "growth_medium",
+            "extracted_value": "liquid MRS medium (Oxoid) supplemented with 10 mM CaCl2 and 10 mM MgSO4 (MCM)",
+            "evidence_type": "quote",
+            "evidence": "Lactobacillus casei ATCC 393 was used to propagate bacteriophage A2 on liquid MRS medium",
+            "correct_value": "This is a host propagation condition, not a phage-intrinsic property."
+          },
+          {
+            "field": "incubation_temperature_C",
+            "extracted_value": "30",
+            "evidence_type": "quote",
+            "evidence": "kept at 30°C without aeration",
+            "correct_value": "This is a host propagation condition, not a phage-intrinsic property."
+          }
+        ],
+        "Escherichia phage T7": [
+          {
+            "field": "phage_name_or_id",
+            "extracted_value": "Escherichia phage T7",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "correct_value": "The text mentions 'phage T7' but does not provide explicit phage-level properties for extraction."
+          }
+        ],
+        "Escherichia phage T4": [
+          {
+            "field": "extra.capsid_proteins",
+            "extracted_value": "gp23 and gp24",
+            "evidence_type": "quote",
+            "evidence": "in phage T4 with gp23 and gp24",
+            "correct_value": "This is a comparative mention, not an explicit property of phage T4 in the context of this study."
+          }
+        ],
+        "Listeria phage PSA": [
+          {
+            "field": "extra.major_head_proteins",
+            "extracted_value": "derived from a single gene through a +1 frameshift",
+            "evidence_type": "quote",
+            "evidence": "in the Listeria phage PSA, where the two major head proteins are derived from a single gene through a +1 frameshift",
+            "correct_value": "This is a comparative mention, not an explicit property of phage PSA in the context of this study."
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 6\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 5\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 7\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 6\n    }\n  ],\n  \"major_issues\": [\n    \"Missing phage entries for Escherichia phage T3 and phage lambda, which are expli",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      7.0,
+      5.5,
+      5.5
+    ],
+    "sample_overall_std": 0.7071,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Conserved_Acetyl_Esterase_Domain_Targets_Diverse",
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "phage_coverage_completeness": 4.0,
+      "field_coverage_completeness": 6.0,
+      "attribution_correctness": 5.0,
+      "value_fidelity_verbatim": 7.0,
+      "schema_compliance": 3.0,
+      "hallucination_and_noise_control": 2.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 4
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 5
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 7
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 3
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 2
+        }
+      ],
+      "major_issues": [
+        "Massive schema violation: 17 non-Vi phage entries (e.g., 'T4', 'λ', 'SP6') were incorrectly added to 'phages' object. These are reference phages mentioned in the text, not the primary Vi phages under study.",
+        "Critical missing phage: 'Vi phage II' (Siphoviridae) is missing from extraction; only 'Vi phage II-E1' is included, but the text explicitly discusses 'Vi phage II' as a member of Siphoviridae.",
+        "Multiple fields contain unsupported or incorrectly attributed information (e.g., 'growth_medium', 'incubation_temperature_C', 'structural_proteins' for Vi phage I).",
+        "Extraction includes numerous 'extra' fields that are empty or contain minimal information for non-Vi phages, adding significant noise."
+      ],
+      "missing_but_expected": {
+        "Vi phage II": {
+          "taxonomy": {
+            "expected_value": "Siphoviridae",
+            "evidence": "We have previously shown that Vi phage II is a member of the Siphoviridae",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage I": {
+          "genome_accession": {
+            "expected_value": "FQ312032",
+            "evidence": "The complete genome annotation for Vi phages I and VI can be found in GenBank or EMBL with accession numbers FQ312032 and FR667955, respectively.",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage VI": {
+          "genome_accession": {
+            "expected_value": "FR667955",
+            "evidence": "The complete genome annotation for Vi phages I and VI can be found in GenBank or EMBL with accession numbers FQ312032 and FR667955, respectively.",
+            "evidence_type": "quote"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {
+        "Vi phage I": {
+          "growth_medium": {
+            "extracted_value": "Luria broth or agar plates at 37°C supplemented with aromatic amino acids",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "This describes general growth conditions for S. Typhi isolates, not specifically for phage propagation.",
+            "evidence_type": "quote"
+          },
+          "incubation_temperature_C": {
+            "extracted_value": "37",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "Temperature mentioned for bacterial growth, not explicitly for phage incubation.",
+            "evidence_type": "quote"
+          },
+          "structural_proteins": {
+            "extracted_value": "Vi01_170c, Vi01_171c, Vi01_172c (tail spike proteins)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "These are candidate tail spike proteins identified by annotation and mass spectrometry, but 'structural_proteins' field typically expects broader virion components.",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage II-E1": {
+          "geographic_region": {
+            "extracted_value": "Stanford University",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "Text states 'Vi phage II-E1 was obtained from Stanford University' – this is a source, not a geographic region of isolation.",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage V": {
+          "similarity_percent": {
+            "extracted_value": "90% with respect to Vi phages VI and VII",
+            "correct_value": "90% for Vi phage V with respect to VI and VII",
+            "evidence": "At the DNA level, homology exceeded 95% with respect to Vi phages VI and VII and 90% for Vi phage V with respect to VI and VII.",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage VI": {
+          "similarity_percent": {
+            "extracted_value": "95% with respect to Vi phage VII",
+            "correct_value": "homology exceeded 95% with respect to Vi phages VI and VII",
+            "evidence": "At the DNA level, homology exceeded 95% with respect to Vi phages VI and VII",
+            "evidence_type": "quote"
+          }
+        },
+        "Vi phage VII": {
+          "similarity_percent": {
+            "extracted_value": "95% with respect to Vi phage VI",
+            "correct_value": "homology exceeded 95% with respect to Vi phages VI and VII",
+            "evidence": "At the DNA level, homology exceeded 95% with respect to Vi phages VI and VII",
+            "evidence_type": "quote"
+          }
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"phage_coverage_completeness\", \"score\": 4},\n    {\"dimension\": \"field_coverage_completeness\", \"score\": 6},\n    {\"dimension\": \"attribution_correctness\", \"score\": 5},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 7},\n    {\"dimension\": \"schema_compliance\", \"score\": 3},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 2}\n  ],\n  \"major_issues\": [\n    \"Massive schema violation: 17 non-Vi phage entries (e.g., 'T4', 'λ', 'SP6') were incorrectly added to 'phages' object. These are reference phages mentioned in the text, not the primary Vi ph",
+    "successful_samples": 1,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      4.5
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": false,
+    "paper_id": "A_Conserved_C-Terminal_Region_in_Gp71_of_the_Small",
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "raw_eval": {},
+    "error": "Expecting ',' delimiter: line 198 column 6 (char 6806)",
+    "successful_samples": 0,
+    "requested_samples": 3,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Genomewide_Mutagenesis_ScreenIdentifiesMultiple_",
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 6.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 8.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Missing phage entries for ViIV, ViV, and ViVI as distinct entities, despite them being explicitly listed alongside ViIII and ViVII.",
+        "Missing 'life_cycle_type' field for phages ViI, ViIII-VII, where the text strongly implies they are also lytic.",
+        "Missing 'target_antigen' field for all phages, as the text explicitly states they target the Vi polysaccharide capsule."
+      ],
+      "missing_but_expected": {
+        "ViIV bacteriophage": {
+          "expected_fields": [
+            "phage_name_or_id",
+            "morphology",
+            "host_bacterium",
+            "life_cycle_type",
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "ViI, ViII, ViIII, ViIV, ViV, and ViVI bacteriophages"
+          }
+        },
+        "ViV bacteriophage": {
+          "expected_fields": [
+            "phage_name_or_id",
+            "morphology",
+            "host_bacterium",
+            "life_cycle_type",
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "ViI, ViII, ViIII, ViIV, ViV, and ViVI bacteriophages"
+          }
+        },
+        "ViVI bacteriophage": {
+          "expected_fields": [
+            "phage_name_or_id",
+            "morphology",
+            "host_bacterium",
+            "life_cycle_type",
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "ViI, ViII, ViIII, ViIV, ViV, and ViVI bacteriophages"
+          }
+        },
+        "ViI (a Myoviridae virus)": {
+          "expected_fields": [
+            "life_cycle_type",
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "Vi-specific bacteriophages... Vi-specific lytic bacteriophage ViII"
+          }
+        },
+        "ViII (a Siphoviridae virus)": {
+          "expected_fields": [
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "Vi-specific bacteriophages... Vi-specific lytic bacteriophage ViII"
+          }
+        },
+        "ViIII to ViVII (Podoviridae viruses)": {
+          "expected_fields": [
+            "life_cycle_type",
+            "target_antigen"
+          ],
+          "evidence": {
+            "evidence_type": "quote",
+            "text": "Vi-specific bacteriophages... Vi-specific lytic bacteriophage ViII"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 8\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 6\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 9\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 8\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"score\": ",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.5,
+      9.5,
+      8.0
+    ],
+    "sample_overall_std": 0.6236,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Mutation_within_the_β_Subunit_ofEscherichia_coli",
+    "overall_score": 8.1667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 8.0,
+      "field_coverage_completeness": 6.0,
+      "attribution_correctness": 9.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 9.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Missing phage entries for 'T4 am G1 (motA)' and 'T4 am S22 (asiA)' which are explicitly named in the text.",
+        "Missing standard schema fields (e.g., 'genome_type', 'isolation_source') for all phages, despite the extraction specification requiring them.",
+        "The 'life_cycle_type' field for 'bacteriophage T4' contains a descriptive phrase instead of a standard term (e.g., 'lytic'), and its value is not a direct quote but a contextual summary."
+      ],
+      "missing_but_expected": {
+        "bacteriophage T4": {
+          "genome_type": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "genome_size_kb": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "isolation_source": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "gene_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "tRNA_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "T4 motA (Am)": {
+          "genome_type": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "genome_size_kb": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "isolation_source": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "gene_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "tRNA_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "T4 motA (Ts) mutant ts G1": {
+          "genome_type": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "genome_size_kb": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "isolation_source": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "gene_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "tRNA_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "T4 asiA (Am), am S22": {
+          "genome_type": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "genome_size_kb": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "isolation_source": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "gene_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          },
+          "tRNA_count": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {
+        "bacteriophage T4": {
+          "life_cycle_type": {
+            "extracted_value": "usurps the host transcriptional machinery",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "bacteriophage T4 usurps the host transcriptional machinery",
+            "penalty_justification": "The extracted value is a descriptive phrase summarizing a mechanism, not a standard life cycle term (e.g., 'lytic'). While it is contextually supported, it does not match the expected schema format for a categorical field."
+          }
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 8\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 6\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 9\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 9\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"score\": ",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.6667,
+      8.1667,
+      8.1667
+    ],
+    "sample_overall_std": 0.2357,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Novel_FilamentousPhagefrom_the_Deep-Sea_Bacteriu",
+    "overall_score": 6.8333,
+    "dimension_scores": {
+      "phage_coverage_completeness": 6.0,
+      "field_coverage_completeness": 7.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 7.0,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 5.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 7
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 7
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 8
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 5
+        }
+      ],
+      "major_issues": [
+        "Extracted JSON includes two non-target phages (Escherichia coli M13 phage, fs-2) that are only mentioned as comparative references in the original text. These should not be separate phage entries.",
+        "Several extracted fields contain values that are not explicitly stated as phage-intrinsic properties in the original text, but are instead descriptions of experimental conditions or broader concepts.",
+        "The 'extra' field contains information that is either not phage-intrinsic ('transcription_induction') or is a duplicate of other fields ('temperature_regulation').",
+        "The value for 'genome_size_kb' is a normalized conversion (7.718) of the verbatim value '7,718 nucleotides', which violates unit fidelity rules."
+      ],
+      "missing_but_expected": {
+        "Shewanella phage SW1": [
+          {
+            "field": "tRNA_count",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Shewanella phage SW1": [
+          {
+            "field": "taxonomy",
+            "extracted_value": "filamentous phage",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "A Novel Filamentous Phage from the Deep-Sea Bacterium"
+          },
+          {
+            "field": "life_cycle_type",
+            "extracted_value": "temperature-regulated production",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "the phage production is temperature regulated"
+          },
+          {
+            "field": "growth_medium",
+            "extracted_value": "2216E medium (5 g/liter tryptone, 1 g/liter yeast extract, 0.1 g/liter FePO4, 34 g/liter NaCl)",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "WP3 was grown aerobically in 200 ml of 2216E medium"
+          },
+          {
+            "field": "incubation_temperature_C",
+            "extracted_value": "4 to 30°C",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "incubated at 4 to 30°C for 1 to 3 days"
+          },
+          {
+            "field": "incubation_time",
+            "extracted_value": "1 to 3 days",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "incubated at 4 to 30°C for 1 to 3 days"
+          },
+          {
+            "field": "extra.modular_structures",
+            "extracted_value": "replication module, structural module, assembly module, regulation module",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "SW1 contains four modular structures: the replication module, the structural module, the assembly module, and the regulation module"
+          },
+          {
+            "field": "extra.temperature_regulation",
+            "extracted_value": "higher production at 4°C",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "yielded a higher number of SW1 phage particles at 4°C"
+          },
+          {
+            "field": "extra.transcription_induction",
+            "extracted_value": "induced by low temperature, mitomycin C, UV irradiation",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "transcription... was significantly induced by MMC and UV irradiation"
+          }
+        ],
+        "Escherichia coli M13 phage": [
+          {
+            "field": "phage_name_or_id",
+            "extracted_value": "Escherichia coli M13 phage",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "M13 phage (8)"
+          }
+        ],
+        "fs-2": [
+          {
+            "field": "phage_name_or_id",
+            "extracted_value": "fs-2",
+            "correct_value": null,
+            "evidence_type": "quote",
+            "evidence": "such as fs-2 (4)"
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 6\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 7\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 8\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 7\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 8\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"score\": 5",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      6.8333,
+      6.8333,
+      6.5
+    ],
+    "sample_overall_std": 0.1571,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Possible_Heterodimeric_Prophage-Like_Element_in_",
+    "overall_score": 6.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 0.0,
+      "field_coverage_completeness": 0.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No phage entries extracted despite explicit phage/prophage information in text",
+        "Complete failure to capture phage-level data from the article"
+      ],
+      "missing_but_expected": {
+        "pSOG3": {
+          "phage_name_or_id": {
+            "expected_value": "pSOG3",
+            "evidence": "Extrachromosomal element pSOG3 (52,162 nucleotides) in the genome of Sodalis glossinidius",
+            "evidence_type": "quote"
+          },
+          "genome_size_kb": {
+            "expected_value": "52,162 nucleotides",
+            "evidence": "Extrachromosomal element pSOG3 (52,162 nucleotides) in the genome of Sodalis glossinidius",
+            "evidence_type": "quote"
+          },
+          "accession_number": {
+            "expected_value": "DQ785801",
+            "evidence": "The sequence of pSOG3 has been deposited in GenBank under accession no. DQ785801",
+            "evidence_type": "quote"
+          },
+          "prophage_status": {
+            "expected_value": "prophage",
+            "evidence": "We suggest that pSOG3 is a prophage that has undergone genome degeneration",
+            "evidence_type": "quote"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"phage_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"field_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\n    \"No phage entries extracted despite explicit phage/prophage information in text\",\n    \"Complete failure to capture phage-level data from the article\"\n  ],\n  \"missing_but_expected\": {\n   ",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      6.6667,
+      6.6667,
+      6.6667
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Self-Splicing_Group_I_Intron_in_DNA_Polymerase_G",
+    "overall_score": 4.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 3.0,
+      "field_coverage_completeness": 2.0,
+      "attribution_correctness": 4.0,
+      "value_fidelity_verbatim": 6.0,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 5.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 3
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 2
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 4
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 6
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 8
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 5
+        }
+      ],
+      "major_issues": [
+        "Extracted JSON includes phage T4 as a primary entry, but the text does not present it as a subject of the study; it is mentioned only as a comparative example.",
+        "Critical phage-level properties explicitly stated in the text (e.g., intron presence, intron size, intron type, ORF presence, GenBank accession numbers) are missing from the phage entries.",
+        "The 'host_bacterium' and 'growth_medium' fields for phage ΦI are extracted from a methodological description of an infection experiment, not from a statement defining the phage's host or standard growth conditions.",
+        "The 'incubation_temperature_C' field for phage ΦI is extracted from a specific experimental condition, not a defining property of the phage."
+      ],
+      "missing_but_expected": {
+        "phage ΦI": [
+          {
+            "field": "intron_present",
+            "expected_value": "yes",
+            "evidence_type": "quote",
+            "evidence": "insertion of a self-splicing group I intron in the coding sequence of the DNA polymerase genes of ΦI"
+          },
+          {
+            "field": "intron_size_bp",
+            "expected_value": "601-bp",
+            "evidence_type": "quote",
+            "evidence": "601-bp insertions 156 bp from the ends of their DNA polymerase genes"
+          },
+          {
+            "field": "intron_type",
+            "expected_value": "group IA2 introns",
+            "evidence_type": "quote",
+            "evidence": "introns belong to subgroup IA2"
+          },
+          {
+            "field": "intron_contains_ORF",
+            "expected_value": "yes",
+            "evidence_type": "quote",
+            "evidence": "both contain an open reading frame"
+          },
+          {
+            "field": "genbank_accession",
+            "expected_value": "AY769989",
+            "evidence_type": "quote",
+            "evidence": "accession numbers AY769989 (ΦI)"
+          }
+        ],
+        "phage W31": [
+          {
+            "field": "intron_present",
+            "expected_value": "yes",
+            "evidence_type": "quote",
+            "evidence": "insertion of a self-splicing group I intron in the coding sequence of the DNA polymerase genes of ... W31"
+          },
+          {
+            "field": "intron_size_bp",
+            "expected_value": "601-bp",
+            "evidence_type": "quote",
+            "evidence": "601-bp insertions 156 bp from the ends of their DNA polymerase genes"
+          },
+          {
+            "field": "intron_type",
+            "expected_value": "group IA2 introns",
+            "evidence_type": "quote",
+            "evidence": "introns belong to subgroup IA2"
+          },
+          {
+            "field": "intron_contains_ORF",
+            "expected_value": "yes",
+            "evidence_type": "quote",
+            "evidence": "both contain an open reading frame"
+          },
+          {
+            "field": "genbank_accession",
+            "expected_value": "AY769990",
+            "evidence_type": "quote",
+            "evidence": "accession numbers ... AY769990 (W31)"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "phage T4": [
+          {
+            "field": "phage_name_or_id",
+            "extracted_value": "phage T4",
+            "correct_value": "NOT_A_PRIMARY_SUBJECT",
+            "evidence_type": "quote",
+            "evidence": "introns have been encountered only in phage T4 and several of its close relatives",
+            "penalty_justification": "Phage T4 is mentioned as a comparative example from prior literature, not as a primary subject of study with extractable properties in this paper. Including it as a primary phage entry is a contextual misattribution."
+          }
+        ],
+        "phage ΦI": [
+          {
+            "field": "host_bacterium",
+            "extracted_value": "E. coli BE",
+            "correct_value": "NOT_EXPLICITLY_STATED",
+            "evidence_type": "quote",
+            "evidence": "E. coli BE was grown ... and infected with phage ΦI",
+            "penalty_justification": "The text describes a specific infection experiment using E. coli BE. It does not explicitly state that E. coli BE is the definitive or sole host bacterium for phage ΦI. This is a methodological detail, not a declared phage property."
+          },
+          {
+            "field": "growth_medium",
+            "extracted_value": "Luria-Bertani medium",
+            "correct_value": "NOT_EXPLICITLY_STATED",
+            "evidence_type": "quote",
+            "evidence": "E. coli BE was grown in Luria-Bertani medium ... and infected with phage ΦI",
+            "penalty_justification": "The medium is specified for growing the bacterial host in an experiment, not as a defining growth condition property of the phage itself."
+          },
+          {
+            "field": "incubation_temperature_C",
+            "extracted_value": "37",
+            "correct_value": "NOT_EXPLICITLY_STATED",
+            "evidence_type": "quote",
+            "evidence": "grown ... at 37°C",
+            "penalty_justification": "The temperature is specified for a bacterial growth and infection experiment, not as a defining incubation property of the phage."
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 3\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 2\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 4\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 6\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 5\n    }\n  ],\n  \"major_issues\": [\n    \"Extracted JSON includes phage T4 as a primary entry, but the text does not presen",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      4.6667,
+      4.6667,
+      4.3333
+    ],
+    "sample_overall_std": 0.1572,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Study_of_the_CopF_Repressor_of_Plasmid_pAMβ1_byP",
+    "overall_score": 6.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 0.0,
+      "field_coverage_completeness": 0.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 0
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "No phage entries extracted despite the text discussing phage display methodology"
+      ],
+      "missing_but_expected": {
+        "phage_entries": {
+          "evidence_type": "quote",
+          "evidence": "studied DNA binding...displayed on a filamentous phage",
+          "expected_value": "At least one phage entry should be present"
+        }
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"phage_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"field_coverage_completeness\", \"score\": 0},\n    {\"dimension\": \"attribution_correctness\", \"score\": 10},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 10},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\"No phage entries extracted despite the text discussing phage display methodology\"],\n  \"missing_but_expected\": {\n    \"phage_entries\": {\n      \"evidence_type\": \"quote\",\n      \"evidence\": \"stud",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      6.6667,
+      3.3333,
+      6.6667
+    ],
+    "sample_overall_std": 1.5714,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "A_Tail_Fiber_Protein_and_a_Receptor-Binding_Protei",
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "phage_coverage_completeness": 6.0,
+      "field_coverage_completeness": 5.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 6
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 5
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Missing phage entries for host range mutants (e.g., ICP2 mutants with gp23/gp25 mutations) that are explicitly described in the text.",
+        "Missing fields for the main phage 'ICP2' (e.g., genome_accession, tRNA_count, host_range, known_variants).",
+        "The phage 'ICP2_2013_A_Haiti' is listed but lacks most schema-defined fields, making its entry incomplete."
+      ],
+      "missing_but_expected": {
+        "ICP2": [
+          {
+            "field": "genome_accession",
+            "evidence_type": "quote",
+            "evidence": "GenBank accession no. NC_024791.1 .",
+            "expected_value": "NC_024791.1"
+          },
+          {
+            "field": "host_range",
+            "evidence_type": "quote",
+            "evidence": "ICP2 host range mutants that can now infect OmpU mutant strains",
+            "expected_value": "Vibrio cholerae wild-type and OmpU mutant strains"
+          },
+          {
+            "field": "known_variants",
+            "evidence_type": "quote",
+            "evidence": "ICP2 host range mutants have missense mutations in gp23 and gp25.",
+            "expected_value": "Host range mutants with mutations in gp23 and/or gp25"
+          }
+        ],
+        "ICP2_2013_A_Haiti": [
+          {
+            "field": "host_bacterium",
+            "evidence_type": "quote",
+            "evidence": "ICP2 is a virulent bacteriophage (phage) that preys on Vibrio cholerae",
+            "expected_value": "Vibrio cholerae"
+          },
+          {
+            "field": "isolation_source",
+            "evidence_type": "quote",
+            "evidence": "ICP2 was first isolated from cholera patient stool samples.",
+            "expected_value": "cholera patient stool samples"
+          },
+          {
+            "field": "morphology",
+            "evidence_type": "quote",
+            "evidence": "ICP2 is morphologically categorized as a short-tailed podovirus",
+            "expected_value": "short-tailed podovirus"
+          },
+          {
+            "field": "genome_size_kb",
+            "evidence_type": "quote",
+            "evidence": "Its 50-kb genome",
+            "expected_value": "50"
+          },
+          {
+            "field": "gene_count",
+            "evidence_type": "quote",
+            "evidence": "contains 73 putative protein-coding sequences",
+            "expected_value": "73"
+          },
+          {
+            "field": "receptor",
+            "evidence_type": "quote",
+            "evidence": "identifying it as the ICP2 receptor.",
+            "expected_value": "OmpU"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 6\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 5\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"Missing phage entries for host range mutants (e.g., ICP2 mutants with gp23/gp25",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.0,
+      8.0,
+      7.8333
+    ],
+    "sample_overall_std": 0.0786,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "AbortivePhageResistance_Mechanism_AbiZ_Speeds_the_",
+    "overall_score": 8.5,
+    "dimension_scores": {
+      "phage_coverage_completeness": 8.0,
+      "field_coverage_completeness": 6.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 7
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Missing explicit 'life_cycle_type' for several phages where it is stated or strongly implied.",
+        "Missing 'burst_size' for phage φ31 in the presence of AbiZ, which is a key result.",
+        "Inconsistent host bacterium attribution for some phages where the specific strain used in the study is stated."
+      ],
+      "missing_but_expected": {
+        "Lactococcus phage φ31": [
+          {
+            "field": "burst_size",
+            "expected_value": "3 ± 1.4",
+            "evidence_type": "quote",
+            "evidence": "The average burst size of φ31 on NCK203(pTRKH2) of 316 ± 68 was reduced by two logs to 3 ± 1.4 for NCK203(pTRKH2:E4)"
+          }
+        ],
+        "Lactococcus phage φ31.1": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "P335 group phages, which include both lytic and temperate members"
+          }
+        ],
+        "Lactococcus phage φ31.2": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "P335 group phages, which include both lytic and temperate members"
+          }
+        ],
+        "Lactococcus phage ul36": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "P335 group phages, which include both lytic and temperate members"
+          }
+        ],
+        "Lactococcus phage ul37": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "P335 group phages, which include both lytic and temperate members"
+          }
+        ],
+        "Lactococcus phage sk1": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "tested with the 936 group phages sk1 and p2"
+          }
+        ],
+        "Lactococcus phage p2": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "tested with the 936 group phages sk1 and p2"
+          }
+        ],
+        "Lactococcus phage c2": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "tested with ... the c2 group phage c2"
+          }
+        ],
+        "Lactococcus phage Q30": [
+          {
+            "field": "life_cycle_type",
+            "expected_value": "lytic",
+            "evidence_type": "quote",
+            "evidence": "P335 group phages, which include both lytic and temperate members"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Lactococcus phage ul36": [
+          {
+            "field": "host_bacterium",
+            "extracted_value": "Lactococcus lactis",
+            "correct_value": "Lactococcus lactis NCK203",
+            "evidence_type": "quote",
+            "evidence": "EOPs and plaque sizes of several P335 group phages were determined on NCK203(pTRKH2:E4)."
+          }
+        ],
+        "Lactococcus phage ul37": [
+          {
+            "field": "host_bacterium",
+            "extracted_value": "Lactococcus lactis",
+            "correct_value": "Lactococcus lactis NCK203",
+            "evidence_type": "quote",
+            "evidence": "EOPs and plaque sizes of several P335 group phages were determined on NCK203(pTRKH2:E4)."
+          }
+        ],
+        "Lactococcus phage Q30": [
+          {
+            "field": "host_bacterium",
+            "extracted_value": "Lactococcus lactis",
+            "correct_value": "Lactococcus lactis NCK203",
+            "evidence_type": "quote",
+            "evidence": "Premature lysis was also observed with a second P335 group phage, Q30 (data not shown)."
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 7\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 10\n    }\n  ],\n  \"major_issues\": [\n    \"Missing explicit 'life_cycle_type' for several phages where it is stated or str",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.6667,
+      8.0,
+      8.5
+    ],
+    "sample_overall_std": 0.2833,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Abortive_Infection_Mechanisms_and_Prophage_Sequenc",
+    "overall_score": 7.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 8.0,
+      "field_coverage_completeness": 7.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 6.0,
+      "schema_compliance": 9.0,
+      "hallucination_and_noise_control": 8.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 7
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 6
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 9
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 8
+        }
+      ],
+      "major_issues": [
+        "Missing genome size and GC content for phage ul36 and ul36.k1 despite explicit data in text.",
+        "Incorrect or unsupported values for 'virion_diameter_nm' (field misapplied to tail length).",
+        "Missing 'genome_accession' for phage ul36.k1.",
+        "Incorrect 'morphology' description for phage ul36.k1 (incomplete).",
+        "Incorrect 'morphology' description for prophage φsmq86 (non-verbatim, unspecific).",
+        "Schema violation: 'virion_diameter_nm' used for tail length, which is not a virion diameter."
+      ],
+      "missing_but_expected": {
+        "Lactococcus phage ul36": [
+          {
+            "field": "genome_size_kb",
+            "expected_value": "36.798",
+            "evidence": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp ... This genome is 333 bp larger that the genome of wild-type phage ul36 (36,798 bp; G+C content, 35.8%).",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "GC_content_percent",
+            "expected_value": "35.8",
+            "evidence": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp ... This genome is 333 bp larger that the genome of wild-type phage ul36 (36,798 bp; G+C content, 35.8%).",
+            "evidence_type": "quote"
+          }
+        ],
+        "Lactococcus phage ul36.k1": [
+          {
+            "field": "genome_size_kb",
+            "expected_value": "37.131",
+            "evidence": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp and has an overall G+C content of 35.7%",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "GC_content_percent",
+            "expected_value": "35.7",
+            "evidence": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp and has an overall G+C content of 35.7%",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "genome_accession",
+            "expected_value": "DB394806",
+            "evidence": "The linear genome of AbiK-resistant phage ul36.k1 contains 37,131 bp and has an overall G+C content of 35.7% (GenBank accession number DB394806).",
+            "evidence_type": "quote"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Lactococcus phage ul36": [
+          {
+            "field": "virion_diameter_nm",
+            "extracted_value": "99 ± 5 nm (tail length)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Lactococcus phage ul36.k1": [
+          {
+            "field": "morphology",
+            "extracted_value": "double-disk baseplate structure",
+            "correct_value": "isometric capsid, noncontractile tail, double-disk baseplate",
+            "evidence": "Electron microscopy observations (Fig.1A) confirmed that wild-type phage ul36 has an isometric capsid, a noncontractile tail, and a two-disk baseplate... Interestingly, only phage mutant ul36.k1 has the double-disk baseplate structure of phage ul36.",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "virion_diameter_nm",
+            "extracted_value": "99 ± 5 nm (tail length)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Lactococcus phage ul36.k1t1": [
+          {
+            "field": "virion_diameter_nm",
+            "extracted_value": "120 ± 6.2 nm (tail length)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Lactococcus phage ul36.t1": [
+          {
+            "field": "virion_diameter_nm",
+            "extracted_value": "120 ± 6.2 nm (tail length)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Lactococcus phage ul36.t1k1": [
+          {
+            "field": "virion_diameter_nm",
+            "extracted_value": "120 ± 6.2 nm (tail length)",
+            "correct_value": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Lactococcus prophage φsmq86": [
+          {
+            "field": "morphology",
+            "extracted_value": "same as lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1",
+            "correct_value": "Prophage φsmq86 had the same morphological features as the lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1",
+            "evidence": "Prophage φsmq86 had the same morphological features as the lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1 (Fig.1A).",
+            "evidence_type": "quote"
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 7\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 6\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 8\n    }\n  ],\n  \"major_issues\": [\n    \"Missing genome size and GC content for phage ul36 and ul36.k1 despite explicit da",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      7.6667,
+      7.6667,
+      7.6667
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Amino_Acid_Residues_in_the_GIY-YIG_Endonuclease_II",
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "phage_coverage_completeness": 1.0,
+      "field_coverage_completeness": 1.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10,
+          "penalty_justification": "The only phage mentioned in the text, Phage T4, is correctly identified and included in the extraction."
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 1,
+          "penalty_justification": "The extraction is missing all schema-defined fields for the phage (e.g., host, genome_size_kb, gene_count, tRNA_count, gc_percent, lifestyle, isolation_source, isolation_year, isolation_country, sequence_accession, sequence_length_bp, sequence_completeness, sequence_quality, sequence_assembly_method, sequence_annotation_method, sequence_annotation_source, sequence_annotation_version, sequence_annotation_date, sequence_annotation_curator, sequence_annotation_notes, sequence_annotation_status, sequence_annotation_completeness, sequence_annotation_quality, sequence_annotation_curation_status, sequence_annotation_curation_notes, sequence_annotation_curation_date, sequence_annotation_curation_curator, sequence_annotation_curation_status_notes, sequence_annotation_curation_status_date, sequence_annotation_curation_status_curator). The text does not contain information for these fields, so they are correctly omitted. However, the extraction spec likely expects the identification of the phage, which is present, but the lack of any other fields indicates minimal coverage of the expected schema."
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10,
+          "penalty_justification": "The single extracted fact (phage name) is directly and explicitly attributed to the phage in the text (e.g., 'Phage T4 endonuclease II')."
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10,
+          "penalty_justification": "The extracted phage name 'Phage T4' matches the text's references (e.g., 'Phage T4')."
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10,
+          "penalty_justification": "The output structure is valid JSON. The top-level contains 'phages' as an object. The phage entry includes the required 'phage_name_or_id' key matching its object key. No non-schema fields are present under the phage entry. The 'extra' object is empty, which is compliant."
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10,
+          "penalty_justification": "No hallucinated phage-level facts are present in the 'phages' object. The 'summary' field is present but, per instructions, is ignored for scoring and does not contain phage-level hallucinations."
+        }
+      ],
+      "major_issues": [
+        "Extraction contains only the phage identifier with no other phage-level properties, resulting in extremely low field coverage. The paper is focused on a specific enzyme (EndoII) of Phage T4 and does not provide general phage metadata (host, genome size, etc.), so the lack of extracted fields is expected given the source text's content."
+      ],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10,\n            \"penalty_justification\": \"The only phage mentioned in the text, Phage T4, is correctly identified and included in the extraction.\"\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 1,\n            \"penalty_justification\": \"The extraction is missing all schema-defined fields for the phage (e.g., host, genome_size_kb, gene_count, tRNA_count, gc_percent, lifestyle, isolation_source, isolation_year, isolation_country, sequen",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.5,
+      6.8333,
+      7.0
+    ],
+    "sample_overall_std": 0.7495,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_Active_Type_IV_Secretion_System_Encoded_by_the_",
+    "overall_score": 6.6667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 2.0,
+      "field_coverage_completeness": 3.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 8.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 2,
+          "penalty_justification": "The extraction spec likely required extraction of all phages mentioned. The ORIGINAL_TEXT explicitly mentions bacteriophages M13, f1, and M13K07. Only M13 and M13K07 were extracted. Phage f1 is missing, despite being explicitly mentioned multiple times as a donor-specific filamentous DNA bacteriophage with the same properties as M13 (e.g., 'f1 infection sensitizes cells to bile salts')."
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 3,
+          "penalty_justification": "For the extracted phages, several schema-defined fields are missing despite being explicitly stated or strongly supported. For example, 'genome_type' ('filamentous DNA bacteriophage' implies dsDNA or ssDNA, but the exact type is not extracted) and 'isolation_source' (phage M13K07 was isolated from an HfrH host, as described in METHODS) are not present. The 'extra' field captures some information but misses other explicit properties like the phage's role in sensitizing cells."
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 6,
+          "penalty_justification": "Attribution for 'host_bacterium' and 'life_cycle_type' is generally correct at Level 2 (same paragraph/section). However, the 'extra' field values ('sensitivity_to_bile_salts: linked to F pilus formation and phage particle secretion') are overly generalized inferences. The text states the sensitivity 'derives from secretion of bacteriophage particles' and is linked to F gene expression, but attributing this specific mechanistic link directly to each phage as an intrinsic property requires careful contextual reading. The extraction presents it as a direct fact for each phage, which is a borderline attribution (Level 3)."
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 7,
+          "penalty_justification": "Values are not exact verbatim matches. 'filamentous DNA bacteriophage' is a correct paraphrase but not a direct quote; the text often uses 'filamentous DNA bacteriophage' as a category. 'Escherichia coli' is correct. The 'extra' field values are summaries, not verbatim. For example, the text says 'sensitivity has two components. The first derives from secretion of bacteriophage particles through the cell envelope, but the second can be attributed to expression of the F genes'. The extracted value condenses this and is not verbatim."
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 8,
+          "penalty_justification": "The structure mostly complies: 'phages' object exists with correct keys. 'phage_name_or_id' matches the key. 'extra' contains only stated properties. However, the 'summary' field is present but ignored as per instructions, which is compliant. Minor deduction because the 'extra' field's content is a bit interpretive rather than a direct property statement."
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 9,
+          "penalty_justification": "No clear hallucinations of non-existent phages or completely unsupported fields. The 'extra' field content is supported but interpretively phrased. The main issue is omission (missing phage f1) rather than hallucination."
+        }
+      ],
+      "major_issues": [
+        "Missing phage entry for 'f1', which is explicitly mentioned as a donor-specific filamentous DNA bacteriophage with properties identical to M13 regarding bile salt sensitivity.",
+        "Incomplete field coverage for extracted phages (e.g., genome_type, isolation_source not extracted despite available information).",
+        "The 'extra' field values, while based on text, are interpretive summaries rather than verbatim or directly stated phage properties, leading to borderline attribution."
+      ],
+      "missing_but_expected": {
+        "M13": {
+          "genome_type": {
+            "evidence_type": "quote",
+            "evidence": "filamentous DNA bacteriophage such as M13",
+            "expected_value": "DNA (likely ssDNA, as typical for filamentous phages, but text states 'DNA')"
+          },
+          "isolation_source": {
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND",
+            "note": "The text does not specify the original isolation source for M13 in this study; it is used as a known model phage."
+          }
+        },
+        "M13K07": {
+          "genome_type": {
+            "evidence_type": "quote",
+            "evidence": "bacteriophage M13K07",
+            "expected_value": "DNA (phagemid derivative of filamentous phage M13)"
+          },
+          "isolation_source": {
+            "evidence_type": "quote",
+            "evidence": "To construct strain AE2086/M13K07, an isolate of HfrH infected with the bacteriophage was grown",
+            "expected_value": "HfrH host bacterium"
+          }
+        },
+        "f1": {
+          "phage_name_or_id": {
+            "evidence_type": "quote",
+            "evidence": "donor-specific bacteriophage, such as M13 and f1",
+            "expected_value": "f1"
+          },
+          "host_bacterium": {
+            "evidence_type": "quote",
+            "evidence": "F pili are required for infection by filamentous DNA bacteriophage, such as M13 and f1",
+            "expected_value": "Escherichia coli"
+          },
+          "life_cycle_type": {
+            "evidence_type": "quote",
+            "evidence": "filamentous DNA bacteriophage",
+            "expected_value": "filamentous DNA bacteriophage"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {
+        "M13": {
+          "extra": {
+            "sensitivity_to_bile_salts": {
+              "extracted_value": "linked to F pilus formation and phage particle secretion",
+              "evidence_type": "quote",
+              "evidence": "sensitivity has two components. The first derives from secretion of bacteriophage particles through the cell envelope, but the second can be attributed to expression of the F genes",
+              "correct_value": "Sensitivity derives from secretion of bacteriophage particles through the cell envelope and expression of F genes for conjugative pili",
+              "note": "The extracted value is a reasonable paraphrase but not verbatim. The attribution is contextually supported (Level 2/3) but the phrasing is interpretive."
+            }
+          }
+        },
+        "M13K07": {
+          "extra": {
+            "sensitivity_to_bile_salts": {
+              "extracted_value": "linked to F pilus formation and phage particle secretion",
+              "evidence_type": "quote",
+              "evidence": "AE2086/M13K07, were sensitive to bile salts no. 3",
+              "correct_value": "Sensitive to bile salts no. 3",
+              "note": "The extracted value adds a mechanistic link ('linked to F pilus formation...') that, while true for the phenomenon, is not a direct, explicit property statement for M13K07 alone in the text. It's a global inference from the study."
+            }
+          }
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 2,\n            \"penalty_justification\": \"The extraction spec likely required extraction of all phages mentioned. The ORIGINAL_TEXT explicitly mentions bacteriophages M13, f1, and M13K07. Only M13 and M13K07 were extracted. Phage f1 is missing, despite being explicitly mentioned multiple times as a donor-specific filamentous DNA bacteriophage with the same properties as M13 (e.g., 'f1 infection sensitizes cells to bile salts').\"\n        },\n        {\n            \"dimension\": \"field_co",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      5.8333,
+      6.1667,
+      8.6667
+    ],
+    "sample_overall_std": 1.2644,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_Enterotoxin-Bearing_Pathogenicity_Island_inStap",
+    "overall_score": 8.8333,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 8.0,
+      "attribution_correctness": 8.5,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 7.5
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 8
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 9
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 8
+        }
+      ],
+      "major_issues": [
+        "Extracted JSON includes nine additional phage entries (e.g., φ11, φ13, 80α) that are only mentioned in the ORIGINAL_TEXT as general examples or in database matches, not as phages characterized in the study. This creates significant noise.",
+        "The 'genome_size_kb' field for φ909 is incorrectly normalized to '30.124' instead of the verbatim '30,124-bp' or '30,124 bp' from the text, violating unit fidelity.",
+        "The 'morphology' field for φ909 is missing the explicit mention of 'long, banded tails' which is part of the verbatim description."
+      ],
+      "missing_but_expected": {
+        "Staphylococcus epidermidis bacteriophage φ909": {
+          "GC_content_percent": {
+            "evidence_type": "quote",
+            "evidence": "GC content, 28%",
+            "expected_value": "28"
+          },
+          "host_bacterium": {
+            "evidence_type": "quote",
+            "evidence": "bacteriophage in S. epidermidis FRI909",
+            "expected_value": "Staphylococcus epidermidis FRI909"
+          }
+        }
+      },
+      "incorrect_or_unsupported": {
+        "Staphylococcus epidermidis bacteriophage φ909": {
+          "genome_size_kb": {
+            "extracted_value": "30.124",
+            "correct_value": "30,124-bp",
+            "evidence_type": "quote",
+            "evidence": "The 30,124-bp genome"
+          },
+          "morphology": {
+            "extracted_value": "symmetrical icosahedral heads (diameter, approximately 60 nm), flexible banded tails, and end plates",
+            "correct_value": "symmetrical icosahedral heads (diameter, approximately 60 nm), flexible banded tails, and end plates. Transmission electron microscopy reveals isometric heads (diameter, 60 nm) with long, banded tails and end plates.",
+            "evidence_type": "quote",
+            "evidence": "Transmission electron microscopy reveals isometric heads (diameter, 60 nm) with long, banded tails and end plates."
+          }
+        },
+        "S. aureus phage φ11": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage φ11",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage φ13": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage φ13",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage 80α": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage 80α",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage ϕPVL108": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage ϕPVL108",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage 96": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage 96",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage ϕSLT": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage ϕSLT",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage ϕN315": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage ϕN315",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "S. aureus phage 187": {
+          "phage_name_or_id": {
+            "extracted_value": "S. aureus phage 187",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        },
+        "Staphylococcus phage 52A": {
+          "phage_name_or_id": {
+            "extracted_value": "Staphylococcus phage 52A",
+            "evidence_type": "not_found",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND"
+          }
+        }
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 8\n    },\n    {\n      \"dimension\": \"attribution_correctness\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"value_fidelity_verbatim\",\n      \"score\": 9\n    },\n    {\n      \"dimension\": \"schema_compliance\",\n      \"score\": 10\n    },\n    {\n      \"dimension\": \"hallucination_and_noise_control\",\n      \"score\": 8\n    }\n  ],\n  \"major_issues\": [\n    \"Extracted JSON includes nine additional phage entries (e.g., φ11, φ13, 80α) tha",
+    "successful_samples": 2,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      9.0,
+      8.6667
+    ],
+    "sample_overall_std": 0.1666,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "An_RNA_Hairpin_Sequesters_the_Ribosome_Binding_Sit",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 10.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"scor",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Analysis_of_DNA_Binding_by_a_Eubacterial_Zinc_Fing",
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 10.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 10.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 10
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 10
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [],
+      "missing_but_expected": {},
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"attribution_correctness\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"value_fidelity_verbatim\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"schema_compliance\",\n            \"score\": 10\n        },\n        {\n            \"dimension\": \"hallucination_and_noise_control\",\n            \"scor",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "sample_overall_std": 0.0,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Analysis_of_Early_Promoters_of_theBacillusBacterio",
+    "overall_score": 8.1667,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 3.0,
+      "attribution_correctness": 8.0,
+      "value_fidelity_verbatim": 8.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 3
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10
+        }
+      ],
+      "major_issues": [
+        "Missing many explicitly stated phage-level properties for both phages (e.g., genome size, promoters, evolutionary relationships, infection conditions).",
+        "Extracted 'extra' fields contain procedural details (methods) rather than phage-intrinsic properties, violating schema rules."
+      ],
+      "missing_but_expected": {
+        "Bacteriophage GA-1": [
+          {
+            "field": "genome_size_kb",
+            "expected_value": "ca. 2 kb larger than φ29",
+            "evidence": "These ORFs account for part of the difference in size of GA-1 DNA and φ29 (GA-1 DNA ca. 2 kb larger than φ29).",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "promoters",
+            "expected_value": "A1a, A1b, A1c, C2, C1b",
+            "evidence": "Identification of the early promoters A1a, A1b, A1c, C2, and C1b.",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "evolutionary_relationship",
+            "expected_value": "evolutionarily related to phage φ29",
+            "evidence": "Bacteriophage GA-1, which infects Bacillus sp. strain G1R, is evolutionarily related to phage φ29",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "multiplicity_of_infection",
+            "expected_value": "5",
+            "evidence": "infected with phage GA-1 at a multiplicity of infection of 5.",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "host_cell_density_at_infection_cells_per_ml",
+            "expected_value": "about 1 × 10^8 cells/ml",
+            "evidence": "grown ... to a density of about 1 × 10^8 cells/ml and infected with phage GA-1",
+            "evidence_type": "quote"
+          }
+        ],
+        "Bacteriophage φ29": [
+          {
+            "field": "host_bacterium",
+            "expected_value": "Bacillus subtilis",
+            "evidence": "phage φ29, which infects Bacillus subtilis",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "evolutionary_relationship",
+            "expected_value": "evolutionarily related to phage GA-1",
+            "evidence": "Bacteriophage GA-1, which infects Bacillus sp. strain G1R, is evolutionarily related to phage φ29",
+            "evidence_type": "quote"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Bacteriophage GA-1": [
+          {
+            "field": "extra.protein_p6_purification",
+            "extracted_value": "purified as described previously",
+            "penalty_justification": "This is a method/procedure, not a phage-intrinsic property. The 'extra' field should only contain explicitly stated phage properties.",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND for this as a phage property.",
+            "evidence_type": "not_found"
+          },
+          {
+            "field": "extra.transcription_assay_conditions",
+            "extracted_value": "25 mM Tris-HCl (pH 7.5), 10 mM MgCl2, 2 mM dithiothreitol, 200 μM each nucleoside triphosphate, 7.5 U of RNasin, 0.2 nM genomic GA-1 DNA, 200 nM ςA RNA polymerase",
+            "penalty_justification": "This is a detailed experimental method, not a phage-intrinsic property. Including it violates schema rules for the 'extra' field.",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND for this as a phage property.",
+            "evidence_type": "not_found"
+          }
+        ],
+        "Bacteriophage φ29": [
+          {
+            "field": "extra.protein_p6_purification",
+            "extracted_value": "purified from B. subtilis 110NA as described previously",
+            "penalty_justification": "This is a method/procedure, not a phage-intrinsic property. The 'extra' field should only contain explicitly stated phage properties.",
+            "evidence": "NO_EXPLICIT_SUPPORT_FOUND for this as a phage property.",
+            "evidence_type": "not_found"
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\"dimension\": \"phage_coverage_completeness\", \"score\": 10},\n    {\"dimension\": \"field_coverage_completeness\", \"score\": 3},\n    {\"dimension\": \"attribution_correctness\", \"score\": 8},\n    {\"dimension\": \"value_fidelity_verbatim\", \"score\": 8},\n    {\"dimension\": \"schema_compliance\", \"score\": 10},\n    {\"dimension\": \"hallucination_and_noise_control\", \"score\": 10}\n  ],\n  \"major_issues\": [\n    \"Missing many explicitly stated phage-level properties for both phages (e.g., genome size, promoters, evolutionary relationships, infection conditions).\",\n    \"Extracted 'extra' fields co",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.1667,
+      8.1667,
+      8.0
+    ],
+    "sample_overall_std": 0.0786,
+    "has_d_final_output": true
+  },
+  {
+    "ok": false,
+    "paper_id": "Anatomy_of_a_LactococcalPhageTail",
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "raw_eval": {},
+    "error": "Expecting ',' delimiter: line 99 column 8 (char 5479)",
+    "successful_samples": 0,
+    "requested_samples": 3,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Bacillus_subtilisOperon_Encoding_a_Membrane_Recept",
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 8.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 9.0,
+      "schema_compliance": 10.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10,
+          "penalty_justification": "The extraction correctly identifies the single phage (SPP1) discussed in the text. No other phages are mentioned that should have been extracted."
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 6,
+          "penalty_justification": "The extraction is missing several fields that are explicitly stated or strongly supported in the text. For example, the phage's morphology (tailed, dsDNA) is directly stated in the text, and its genome size is implied through references to its DNA. The 'host_bacterium' field is correct, but other expected fields like 'morphology' and 'genome_type' are absent despite clear textual evidence."
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 9,
+          "penalty_justification": "Most extracted values are correctly attributed to phage SPP1 with Level 1 or Level 2 support. The 'receptor' value is directly stated. The 'extra' field values are also well-supported within the context of the phage. A minor deduction is for the 'plaque_size_variation' extra field, which, while correct, is more specifically tied to disruption of the *yukE* gene rather than the entire operon, but the linkage is still clear (Level 2)."
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 8,
+          "penalty_justification": "Extracted values are semantically correct but not always verbatim. For instance, the 'receptor' is correctly identified as 'YueB', which is verbatim. However, the 'host_bacterium' is given as 'Bacillus subtilis', while the text frequently uses the abbreviation 'B. subtilis'. This is a minor normalization. The 'extra' field values are paraphrases of the text rather than direct quotes, which is acceptable for an 'extra' field but prevents a perfect score for verbatim fidelity."
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 10,
+          "penalty_justification": "The output structure is fully compliant. The top-level 'phages' object is present and correctly keyed. The required 'phage_name_or_id' field matches the key. Only schema-defined fields and an 'extra' object are used. No disallowed fields (like 'NA') are present."
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10,
+          "penalty_justification": "No hallucinations are present. All information in the 'phages' object is directly supported by the ORIGINAL_TEXT. The 'summary' field is present but, as per instructions, is ignored for scoring and does not introduce noise into the evaluated extraction."
+        }
+      ],
+      "major_issues": [
+        "Incomplete field coverage: Several key phage properties explicitly mentioned in the text (morphology, genome type) are missing from the extraction.",
+        "The 'extra' field contains valid information, but its use may indicate that some properties (e.g., 'irreversible_adsorption') could have been mapped to more standard schema fields if they existed."
+      ],
+      "missing_but_expected": {
+        "Bacteriophage SPP1": [
+          {
+            "field": "morphology",
+            "expected_value": "tailed",
+            "evidence": "The text references 'SPP1 and SP01 propagation', and SP01 is a well-known *B. subtilis* myovirus (tailed). The context and comparison imply SPP1 is also a tailed phage. More directly, the discussion of DNA injection mechanics is typical of tailed phages.",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "genome_type",
+            "expected_value": "dsDNA",
+            "evidence": "The DISCUSSION section states: 'phage DNA enters the cell in double-stranded form' and refers to 'viral DNA'. This explicitly describes a double-stranded DNA genome.",
+            "evidence_type": "quote"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {}
+    },
+    "raw_response_preview": "```json\n{\n    \"scores\": [\n        {\n            \"dimension\": \"phage_coverage_completeness\",\n            \"score\": 10,\n            \"penalty_justification\": \"The extraction correctly identifies the single phage (SPP1) discussed in the text. No other phages are mentioned that should have been extracted.\"\n        },\n        {\n            \"dimension\": \"field_coverage_completeness\",\n            \"score\": 6,\n            \"penalty_justification\": \"The extraction is missing several fields that are explicitly stated or strongly supported in the text. For example, the phage's morphology (tailed, dsDNA) is d",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.8333,
+      9.5,
+      9.5
+    ],
+    "sample_overall_std": 0.3143,
+    "has_d_final_output": true
+  },
+  {
+    "ok": true,
+    "paper_id": "Bacteriophageand_Phenotypic_Variation_inPseudomona",
+    "overall_score": 8.8333,
+    "dimension_scores": {
+      "phage_coverage_completeness": 10.0,
+      "field_coverage_completeness": 6.0,
+      "attribution_correctness": 10.0,
+      "value_fidelity_verbatim": 8.0,
+      "schema_compliance": 9.0,
+      "hallucination_and_noise_control": 10.0
+    },
+    "raw_eval": {
+      "scores": [
+        {
+          "dimension": "phage_coverage_completeness",
+          "score": 10,
+          "penalty_justification": "The extraction correctly identifies the only phage discussed in the text (Pf4). No other phages are mentioned."
+        },
+        {
+          "dimension": "field_coverage_completeness",
+          "score": 4,
+          "penalty_justification": "The extraction is missing several key fields that are explicitly stated in the text. For phage Pf4, the text provides a genome size (12,437 bp), a host strain (PAO1), and a genome accession context (GenBank accession no. AE004508, AE004507). These are not captured in the extracted JSON."
+        },
+        {
+          "dimension": "attribution_correctness",
+          "score": 8,
+          "penalty_justification": "Most extracted values are correctly attributed to Pf4. However, the 'effect_on_host' value in 'extra' combines effects observed in SCVs (which are Pf4-infected) but is not a direct, verbatim statement about Pf4's effect. The linkage is contextual (Level 2/3) but acceptable. The 'genome_analysis' value is a direct, verbatim quote correctly attributed."
+        },
+        {
+          "dimension": "value_fidelity_verbatim",
+          "score": 7,
+          "penalty_justification": "Some values are not verbatim. For example, 'life_cycle_type' is given as 'filamentous phage' but the text more precisely states it is a 'filamentous prophage' and 'filamentous phage'. 'morphology' is correctly 'filamentous'. The 'extra' field values are paraphrased or combined from the text rather than verbatim copies."
+        },
+        {
+          "dimension": "schema_compliance",
+          "score": 9,
+          "penalty_justification": "The structure is mostly compliant. The 'extra' field is used appropriately for non-schema properties. However, the 'title' field at the root is not part of the specified phage-level schema and should not be present. The 'summary' field is present but correctly ignored for scoring."
+        },
+        {
+          "dimension": "hallucination_and_noise_control",
+          "score": 10,
+          "penalty_justification": "No hallucinated fields or values were introduced. All information in the 'phages' object can be traced to the original text."
+        }
+      ],
+      "major_issues": [
+        "Missing key schema fields for phage Pf4: genome_size_bp, host_strain, and genome_accession.",
+        "Non-verbatim values in core fields (life_cycle_type) and the 'extra' field.",
+        "Presence of a non-schema 'title' field at the root level."
+      ],
+      "missing_but_expected": {
+        "Pf4": [
+          {
+            "field": "genome_size_bp",
+            "expected_value": "12,437-bp",
+            "evidence": "The sequences predict a 12,437-bp viral genome",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "host_strain",
+            "expected_value": "PAO1",
+            "evidence": "P. aeruginosa strain PAO1 ( 26 ) was used in this study.",
+            "evidence_type": "quote"
+          },
+          {
+            "field": "genome_accession",
+            "expected_value": "AE004508, AE004507",
+            "evidence": "Primers Pf4F (5′-AGCAGCGCGATGAAGCAAT-3′), corresponding to bp 2756 to 2774 of GenBank accession no. AE004508, and Pf4R (5′-TAGAGGCCATTTGTGACTGGA-3′), targeting bp 1566 to 1546 of GenBank accession no. AE004507",
+            "evidence_type": "quote"
+          }
+        ]
+      },
+      "incorrect_or_unsupported": {
+        "Pf4": [
+          {
+            "field": "life_cycle_type",
+            "extracted_value": "filamentous phage",
+            "correct_value": "filamentous prophage / filamentous phage",
+            "evidence": "genes of a Pf1-like filamentous prophage were found to be highly upregulated... mature biofilms of P. aeruginosa were found to release a filamentous phage (designated Pf4)",
+            "evidence_type": "quote",
+            "note": "The extracted value is acceptable but not the most precise verbatim term used ('prophage')."
+          }
+        ]
+      }
+    },
+    "raw_response_preview": "```json\n{\n  \"scores\": [\n    {\n      \"dimension\": \"phage_coverage_completeness\",\n      \"score\": 10,\n      \"penalty_justification\": \"The extraction correctly identifies the only phage discussed in the text (Pf4). No other phages are mentioned.\"\n    },\n    {\n      \"dimension\": \"field_coverage_completeness\",\n      \"score\": 4,\n      \"penalty_justification\": \"The extraction is missing several key fields that are explicitly stated in the text. For phage Pf4, the text provides a genome size (12,437 bp), a host strain (PAO1), and a genome accession context (GenBank accession no. AE004508, AE004507). Th",
+    "successful_samples": 3,
+    "requested_samples": 3,
+    "sample_overall_scores": [
+      8.0,
+      9.0,
+      8.8333
+    ],
+    "sample_overall_std": 0.4374,
+    "has_d_final_output": true
+  }
+]

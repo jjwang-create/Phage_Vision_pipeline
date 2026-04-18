@@ -1,0 +1,33 @@
+{
+  "title": "A −1 Ribosomal Frameshift in the Transcript That Encodes the Major Head Protein of Bacteriophage A2 Mediates Biosynthesis of a Second Essential Component of the Capsid",
+  "summary": "The paper discusses Lactobacillus bacteriophage A2, which has two major capsid proteins (gp5A and gp5B) essential for phage viability, derived from a ribosomal frameshift mechanism. The phage was propagated on Lactobacillus casei ATCC 393 in MRS medium supplemented with CaCl2 and MgSO4 at 30°C. The study also mentions Escherichia phages T7 and T4, and Listeria phage PSA in the context of frameshift-derived proteins and capsid architecture.",
+  "phages": {
+    "Lactobacillus bacteriophage A2": {
+      "phage_name_or_id": "Lactobacillus bacteriophage A2",
+      "host_bacterium": "Lactobacillus casei ATCC 393",
+      "growth_medium": "liquid MRS medium (Oxoid) supplemented with 10 mM CaCl2 and 10 mM MgSO4 (MCM)",
+      "incubation_temperature_C": "30",
+      "extra": {
+        "major_capsid_proteins": "gp5A and gp5B",
+        "frameshift_mechanism": "requires a slippery sequence (C CCA AAA) and a stem-loop structure",
+        "capsid_protein_ratio": "380 copies of gp5A and 110 copies of gp5B"
+      }
+    },
+    "Escherichia phage T7": {
+      "phage_name_or_id": "Escherichia phage T7",
+      "extra": {}
+    },
+    "Escherichia phage T4": {
+      "phage_name_or_id": "Escherichia phage T4",
+      "extra": {
+        "capsid_proteins": "gp23 and gp24"
+      }
+    },
+    "Listeria phage PSA": {
+      "phage_name_or_id": "Listeria phage PSA",
+      "extra": {
+        "major_head_proteins": "derived from a single gene through a +1 frameshift"
+      }
+    }
+  }
+}

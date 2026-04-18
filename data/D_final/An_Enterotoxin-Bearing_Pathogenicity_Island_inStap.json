@@ -1,0 +1,50 @@
+{
+  "title": "An Enterotoxin-Bearing Pathogenicity Island in Staphylococcus epidermidis",
+  "summary": "The paper describes the identification and characterization of a novel bacteriophage φ909 in Staphylococcus epidermidis FRI909, which has a genome size of 30,124 bp and a GC content of 28%. The phage exhibits an icosahedral head (60 nm diameter) with flexible banded tails and end plates. It is compared to several S. aureus phages (φ11, φ13, 80α, ϕPVL108, 96, ϕSLT, ϕN315, 187) and Staphylococcus phage 52A, but does not appear to mobilize the identified pathogenicity island SePI-1.",
+  "phages": {
+    "Staphylococcus epidermidis bacteriophage φ909": {
+      "phage_name_or_id": "Staphylococcus epidermidis bacteriophage φ909",
+      "genome_size_kb": "30.124",
+      "GC_content_percent": "28",
+      "morphology": "symmetrical icosahedral heads (diameter, approximately 60 nm), flexible banded tails, and end plates",
+      "host_bacterium": "Staphylococcus epidermidis FRI909",
+      "extra": {}
+    },
+    "S. aureus phage φ11": {
+      "phage_name_or_id": "S. aureus phage φ11",
+      "extra": {}
+    },
+    "S. aureus phage φ13": {
+      "phage_name_or_id": "S. aureus phage φ13",
+      "extra": {}
+    },
+    "S. aureus phage 80α": {
+      "phage_name_or_id": "S. aureus phage 80α",
+      "extra": {}
+    },
+    "S. aureus phage ϕPVL108": {
+      "phage_name_or_id": "S. aureus phage ϕPVL108",
+      "extra": {}
+    },
+    "S. aureus phage 96": {
+      "phage_name_or_id": "S. aureus phage 96",
+      "extra": {}
+    },
+    "S. aureus phage ϕSLT": {
+      "phage_name_or_id": "S. aureus phage ϕSLT",
+      "extra": {}
+    },
+    "S. aureus phage ϕN315": {
+      "phage_name_or_id": "S. aureus phage ϕN315",
+      "extra": {}
+    },
+    "S. aureus phage 187": {
+      "phage_name_or_id": "S. aureus phage 187",
+      "extra": {}
+    },
+    "Staphylococcus phage 52A": {
+      "phage_name_or_id": "Staphylococcus phage 52A",
+      "extra": {}
+    }
+  }
+}

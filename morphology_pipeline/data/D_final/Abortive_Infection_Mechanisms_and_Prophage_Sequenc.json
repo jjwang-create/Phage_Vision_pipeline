@@ -1,0 +1,84 @@
+{
+  "title": "Abortive Infection Mechanisms and Prophage Sequences Significantly Influence the Genetic Makeup of Emerging Lytic Lactococcal Phages",
+  "summary": "The study characterizes the morphology of wild-type lactococcal phage ul36 and its Abi-resistant mutants, all belonging to the P335 group. Wild-type ul36 has an isometric capsid, a noncontractile tail, and a two-disk baseplate. Mutants ul36.t1, ul36.t1k1, and ul36.k1t1 have a one-disk baseplate and slightly longer tails (120 ± 6.2 nm) compared to ul36 and ul36.k1 (99 ± 5 nm). The inducible prophage φsmq86 shares morphological features with these three mutants.",
+  "phages": {
+    "ul36": {
+      "phage_name_or_id": "ul36",
+      "morphology": "isometric capsid, a noncontractile tail, and a two-disk baseplate",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "99 ± 5 nm",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "ul36.k1": {
+      "phage_name_or_id": "ul36.k1",
+      "morphology": "has the double-disk baseplate structure of phage ul36",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "99 ± 5 nm",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "ul36.k1t1": {
+      "phage_name_or_id": "ul36.k1t1",
+      "morphology": "has a one-disk baseplate",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "120 ± 6.2 nm",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "35.594",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "ul36.t1": {
+      "phage_name_or_id": "ul36.t1",
+      "morphology": "has a one-disk baseplate",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "120 ± 6.2 nm",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "35.992",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "ul36.t1k1": {
+      "phage_name_or_id": "ul36.t1k1",
+      "morphology": "has a one-disk baseplate",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "120 ± 6.2 nm",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "34.897",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "φsmq86": {
+      "phage_name_or_id": "φsmq86",
+      "morphology": "had the same morphological features as the lytic phages ul36.t1, ul36.k1t1, and ul36.t1k1",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "Lactococcus lactis SMQ-86",
+      "genome_size_kb": "33.641",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

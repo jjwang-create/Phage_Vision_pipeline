@@ -1,0 +1,58 @@
+{
+  "title": "A Self-Splicing Group I Intron in DNA Polymerase Genes of T7-Like Bacteriophages",
+  "summary": "The paper reports group I introns in phages ΦI and W31, which are closely related to T7, but provides no morphological or structural details for any of the phages mentioned. No TEM images, dimensions, or structural characterizations are described.",
+  "phages": {
+    "ΦI": {
+      "phage_name_or_id": "ΦI",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "W31": {
+      "phage_name_or_id": "W31",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "T4": {
+      "phage_name_or_id": "T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    },
+    "T7": {
+      "phage_name_or_id": "T7",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

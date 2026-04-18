@@ -1,0 +1,10 @@
+{
+  "title": "Amino Acid Residues in the GIY-YIG Endonuclease II of Phage T4 Affecting Sequence Recognition and Binding as Well as Catalysis",
+  "summary": "The paper discusses Phage T4 endonuclease II (EndoII), focusing on its structure, catalytic roles of specific amino acids, and DNA-binding properties.",
+  "phages": {
+    "Phage T4": {
+      "phage_name_or_id": "Phage T4",
+      "extra": {}
+    }
+  }
+}

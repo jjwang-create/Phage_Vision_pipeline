@@ -1,0 +1,19 @@
+{
+  "title": "Amino Acid Residues in the GIY-YIG Endonuclease II of Phage T4 Affecting Sequence Recognition and Binding as Well as Catalysis",
+  "summary": "The paper focuses on the biochemical characterization of Phage T4 endonuclease II (EndoII), a GIY-YIG endonuclease, including its structure modeling, mutagenesis, expression, purification, and enzymatic activity assays. No morphological or structural details about the T4 virion itself are provided.",
+  "phages": {
+    "Phage T4": {
+      "phage_name_or_id": "Phage T4",
+      "morphology": "",
+      "virion_diameter_nm": "",
+      "capsid_size": "",
+      "tail_length_nm": "",
+      "tail_width_nm": "",
+      "plaque_morphology": "",
+      "host_bacterium": "",
+      "genome_size_kb": "",
+      "structural_proteins": "",
+      "extra": {}
+    }
+  }
+}

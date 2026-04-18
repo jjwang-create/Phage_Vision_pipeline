@@ -1,0 +1,17 @@
+{
+  "title": "Bacteriophage and Phenotypic Variation in Pseudomonas aeruginosa Biofilm Development",
+  "summary": "The paper discusses Pf4, a filamentous phage associated with Pseudomonas aeruginosa biofilms, which mediates phenotypic variation leading to small-colony variants (SCVs) with enhanced biofilm formation and altered colony morphology.",
+  "phages": {
+    "Pf4": {
+      "phage_name_or_id": "Pf4",
+      "host_bacterium": "Pseudomonas aeruginosa",
+      "life_cycle_type": "filamentous phage",
+      "morphology": "filamentous",
+      "extra": {
+        "role_in_biofilm": "mediates phenotypic variation leading to small-colony variants (SCVs)",
+        "effect_on_host": "enhanced attachment, accelerated biofilm development, and large regions of dead and lysed cells inside microcolonies",
+        "genome_analysis": "contains a putative toxin-antitoxin (plasmid stabilization) operon"
+      }
+    }
+  }
+}
